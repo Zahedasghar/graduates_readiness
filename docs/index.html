@@ -1,36 +1,575 @@
----
-title: "Module 3 html"
-author: "Zahid Asghar"
-date: "2/26/2022"
-output: 
-  html_document:
-    keep_md: true
-    toc: yes
-    toc_float: true
-    code_folding: hide
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
----
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.35">
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-## R Markdown   {#nextsteps .emphasized}
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+<title>Assessing graduates readiness for job market skills</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
-summary(cars)
-```
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
-## Including Plots
 
-You can also embed plots, for example:
+</head>
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+<body>
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#future-of-jobs-and-skills" id="toc-future-of-jobs-and-skills" class="nav-link" data-scroll-target="#future-of-jobs-and-skills">Future of jobs and skills</a></li>
+  <li><a href="#education-through-exploration" id="toc-education-through-exploration" class="nav-link" data-scroll-target="#education-through-exploration">Education through exploration</a></li>
+  <li><a href="#role-of-universities-in-knowledge-economy" id="toc-role-of-universities-in-knowledge-economy" class="nav-link" data-scroll-target="#role-of-universities-in-knowledge-economy">Role of Universities in Knowledge Economy</a></li>
+  <li><a href="#career-counseling-and-support" id="toc-career-counseling-and-support" class="nav-link" data-scroll-target="#career-counseling-and-support">Career Counseling and Support</a>
+  <ul class="collapse">
+  <li><a href="#future-of-universities" id="toc-future-of-universities" class="nav-link" data-scroll-target="#future-of-universities">Future of Universities</a></li>
+  <li><a href="#problem-based-learning-ecosystem" id="toc-problem-based-learning-ecosystem" class="nav-link" data-scroll-target="#problem-based-learning-ecosystem">Problem Based Learning Ecosystem</a></li>
+  </ul></li>
+  <li><a href="#survey-results" id="toc-survey-results" class="nav-link" data-scroll-target="#survey-results">Survey Results</a></li>
+  <li><a href="#career-counseling" id="toc-career-counseling" class="nav-link" data-scroll-target="#career-counseling">Career Counseling</a></li>
+  <li><a href="#choice-of-degree-with-career-would-have-been-better-with-counseling" id="toc-choice-of-degree-with-career-would-have-been-better-with-counseling" class="nav-link" data-scroll-target="#choice-of-degree-with-career-would-have-been-better-with-counseling">Choice of degree with career would have been better with counseling</a></li>
+  <li><a href="#conlcusion" id="toc-conlcusion" class="nav-link" data-scroll-target="#conlcusion">Conlcusion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Assessing graduates readiness for job market skills</h1>
+<p class="subtitle lead">Zahid Asghar, School of Economics, Quaid-i-Azam University</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="abstract" class="level3">
+<h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
+<p>Employers are facing a great chasm between skills currently prevailing and skills employer require. Future of jobs and educational institutions are very uncertain. In a changing world, it is important to assess our graduates readiness for jobs with skills in demand in the market. This study is aimed at how digital revolution, new technologies, artificial intelligence may lead to have major disruption in future jobs and how our graduates are equiped with desired skills. Opinion survey conducted from recently qualified/last year university students and MPhil/PhD students indicate element of worriness, lack of awareness of future uncertainties and relatively more focus on hard work than soft skills. Absence of career couseling and right places to get relevant skills also came out as some major factors for students poor readiness for market besides their poor performance in academics. It has been observed that our graduates are very hard working but lack most of other soft skills which are in high demand in digital era where humans have to work with machines more than before. Our graduates are not exposed to culture of continuous learning.Universities business as usual approach seems a complete disconnect for their readiness to meet the challenges of the 3rd decade of the 21st century.</p>
+<p><strong>Keywords: Future jobs, Future of Universities, Time vs Learning goals</strong></p>
+</section>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Both future of tens of millions of burgeoning youth and economic growth of Pakistan are dependent on the type of learning ecosystem we are going to have. Skills inequality is also one among differing degrees of inequalities. Sustainable development requires certain kind of skills that come with a formal education. This is also called in economics jargon: skill-biased technical change. In addition, there are informal know-how : tacit skills which develop when one lives among other skilled workers. There is an increasing skill gap in almost all of the occupations ranging from jobs of car mechanics to digital services providers. There is need for significant effort and deliberate practice to think expansively to know what steps are required for uncertain future work. If we will invest in developing a lhning ecosystem, our burgeoning youth will be equipped with relevant skills to do well in the jobs of tomorrow. The dilemma is that neither educational institutions nor industries/companies are helping to prepare to over skilling gap and bridge skill inequalities. Academia has not been out of its comfort zone and trying to produce research which helps it to reach higher grade instead of focusing on imparting skills which are in high demand. Companies are not investing in training to develop requisite skills. Many of these companies prefer to buy talent instead of building talent with high level of professionalism. This has seriously deteriorated the capacity to cope with challenges posed in the third decade of the 21st century <span class="citation" data-cites="Weise2021">Weise (<a href="#ref-Weise2021" role="doc-biblioref">2021</a>)</span>. Digital revolution and Covid-19 pandemic disruption has exposed an ever increasing skilling gap at the globe, in general and in a developing country like Pakistan, in particular. Simultaneously, this has posed serious challenges to universities to continue their business as usual.@ijaz2019</p>
+<p>Main objective of this study is to highlight that with penetration of artificial intelligence, machine learning, big data and other digital techonologies has posed serious challenges to those whose jobs are performed in a routinely manner. Secondly, how universities can play a role and what will be future perspective of universities after online learning platform has become fully functional. What is future of universities without digital emersion and will physical universities continue to operate after 10 years from now.</p>
+<p>Thirdly, what kind of learning ecosystem is required where learning outcomes will be fixed while making time a variable unlike practice so far in vogue where time is fixed and learning is a variable. Most of Pakistani universities are suffering from serious financial crisis besides serving a very small fraction of students at tertiary education. Data collected on future job challenges summary will help us to understand how our youth is aware of these challenges and what is its understanding about future emerging challenges with possible skill gaps.</p>
+</section>
+<section id="future-of-jobs-and-skills" class="level2">
+<h2 class="anchored" data-anchor-id="future-of-jobs-and-skills">Future of jobs and skills</h2>
+<p>Future of jobs is uncertain due to rapid changes in the past 50 years in all spheres of life all over the globe. According to <span class="citation" data-cites="Coyle2021">Coyle (<a href="#ref-Coyle2021" role="doc-biblioref">2021</a>)</span> <em>Advances in digital technologies, robotics,and AI are coalescing to alter the shape of work, automating routine tasks and requiring jobs for humans to be repackaged as non-routines ones.</em> Besides immense benefits of digital economy, it is clearly helping drive major inequalities of wealth and power and disrupting existing industrial activities and jobs. Due to medical and technological advances, life expectancy has increased from 30 years to 70 years and 80 plus years in the developed world. With increased life expectancy and rapidly evolving technological changes, future of jobs has become uncertain. Many jobs which are available were not there and many more will emerge which are not available now. What kind of skills and education should be imparted is not known. According to Sohail Inayatull, often organization think when some disruption happens or they miss something. Futuristic thinking means that working on problems before some structural change makes one redundant. According to him, often people think about the future, it is out there- Robotic, Space travel, etc. Future is not like an empty space, it is like the past. It is an active aspect of the present and thinking about the future is to as change today.</p>
+</section>
+<section id="education-through-exploration" class="level2">
+<h2 class="anchored" data-anchor-id="education-through-exploration">Education through exploration</h2>
+<p>Portable supercomputers somehow attached to the human being is now a transformative thing. It’s going to be the same as clothing, electricity, refrigerators, and running water, and toilets. According to Global Freshman Academy : core knowledge, advancing ideas allot for that is still there. The future of higher education is uncertain and many potential futures exists. Things are moving faster and faster. What worked 10-20 years ago is not going to work 3 years from now or 5 years from now. We have to be very systemic about sustainability and technology when we think that in order to make a really affordable, accessible, quality learning experience, we have to prepare for growth ahead of time. Continuous learning is important because education is going to change as things are moving faster, new technologies are emerging, skills to use those new technologies are in high demand. Therefore, it is not viable that a 4-year education, once in a lifetime, will serve one for the next 40/50 years. There are 100s of courses available for online learning but its important that universities design their own courses as per local needs. As a result, universities role has also changed. Instead of imparting certain kind of skills, universities have to think in learning ecosystem and have to strive to enable students to learning path so that after completion of degrees, students can learn at their own. There is urgent need to change learning paradigm from enabling students to learn once mode to a continuous habit of learning. Similarly, during the next 5 years, many new jobs will appear. How can an individual or society meet this challenge?</p>
+<p>These must be in English language but while teaching, there is no harm if local language can be used or can be bilingual. Local case studies will help to engage students better.</p>
+<p>Universities need commitment to the promotion of lifelong learning through its academic programs and promotion of good citizenship through community-based learning process. People’s whom jobs will be abandoned don’t have skills for new jobs to be created. It is not feasible for most of such people to get education at campus even if there are such upskilling programs. Majority of the jobs are linked with soft skills for which physical labs are not required. Harvard Business School survey revealed that most businesses leader prefer to invest in technology rather than overhaul complex human capital management <span class="citation" data-cites="PorterandRivkin2014">Porter and Rivkin (<a href="#ref-PorterandRivkin2014" role="doc-biblioref">2014</a>)</span>. Focus is more buying a talent instead of building a talent. Culture of retaining and attracting talent is absent. No steps are taken to accelerate a new and transformative human capital development agenda for the work of future. <strong>“And now that future is our present of work”.</strong></p>
+</section>
+<section id="role-of-universities-in-knowledge-economy" class="level2">
+<h2 class="anchored" data-anchor-id="role-of-universities-in-knowledge-economy">Role of Universities in Knowledge Economy</h2>
+<p>There is lot of lip service to knowledge economy without realising what it is and what its demands are, and how can a nation prepares itself for the same. Due to increased life expectancy over time, it is hard to imagine a straight line from education to work and, finally, retirement. 2 or 4 or even 6 years college front-loaded at the beginning of 80 to 100 years life seems inadequate. There is a need for a paradigm shift from default mental model Learn, Earn, Rest to Learn, Earn, Learn, Earn,… for 10 to 12 jobs changes in one’s life time. Learning and work have become inseparable, and it is knowledge economy or continuous learning. There is complete disconnect what is supplied and what is the demand in the market. I restrict myself here to role of higher education in meeting this challenge of knowledge economy.</p>
+<p>Higher education system is stuck in first transition from young adulthood to work force. There is debate whether universities should produce graduates with skills matching with jobs or graduates should follow a broader general skill. There are strong arguments on both sides. But research shows that graduates who start their career path at lower level than their qualification are highly likely to serve at lower level except few disciplines. Secondly, surveys at entry level indicate that majority of them join college for getting skills to get job in the market. Thirdly, 50 to 70 years work life demands that job skills are must for a graduate. It is not true to think college education against workforce training. As economist Anthony P. Carnevale writes: “The inescapable reality is that ours is a society based on work. Increasing the economic relevance of education should, if done properly,extend the ability of educators to empower Americans to work in the world, rather than retreat from it.” Supply-Demand Mismatch has become a dominant issue. There is a need to have symbiotic relationship among learners, learning providers and employers <span class="citation" data-cites="AmericanAAS2018">Arts and Sciences (<a href="#ref-AmericanAAS2018" role="doc-biblioref">2017</a>)</span>. According to LearnLaunch estimates for 2015-2018, more than 240 new companies secured funding to address supply-demand mismatch issues, workplace competencies, technical skills, and formal and informal training making up a market place of workforce in excess of billion <span class="citation" data-cites="Colin2018">Colin Magee and Astashkina (<a href="#ref-Colin2018" role="doc-biblioref">2018</a>)</span>.</p>
+</section>
+<section id="career-counseling-and-support" class="level2">
+<h2 class="anchored" data-anchor-id="career-counseling-and-support">Career Counseling and Support</h2>
+<p>There are lot of online learning opportunities but many often ask that they dont have access to trustworthy sources from where they can get an idea from which source to learn. Unlike consumer common products used in Pakistan, there are not much reviews about learning platforms. Some complains that online learning training are either below quality or fake and charge hefty amounts to participants. Workers often ask how to make sense of their options but there is not sufficient information available on the matter. Potential consumers of online education encounter a black box. A survey from university graduates mentions that they are performing poor in studies because no right counseling was provided to them when they joined BS-graduate at college level. Similarly, gaps exists between learners, learning providers and employers Neither side understands clearly what the other sides need. Adult learners need guidance and are in need of mentors. Most of them are unable to move on a learning curve at their own, therefore, they need guidance. With human help, adult learners can make their online learning more effective. Learning and upskilling alone are not enough. Codding apprenticeship, legal services, food stamps, health care, employment assistance It is becoming difficult for youth to spare mental energies to creativity due to increasing pressure of earning livelihood. Mental energies not free to put but survival. Despite a number of free learning opportunities, how can they fit in extra learning along with day-to-day struggle to survive? Guidelines to reskilling/upskilling are not available, and it is not possible for workers to improve their skills and once they get out of job, they hardly find any working opportunity afterward due to change in required skills. Networking and social capital are just like assets as one can utilize these to perform many assignments efficiently. Office staff needs continuous support and their managers need training as well. But there is a dominant culture of management in Pakistan, so management and other leaders often say “Oh, I have managed people before, I dont need training.” Continuous support from education leaders/managers have significant long-term benefits for new workers as they prepare for success in the new economy.</p>
+<section id="future-of-universities" class="level3">
+<h3 class="anchored" data-anchor-id="future-of-universities">Future of Universities</h3>
+<p>According to Transformation 2050 book, due to demographic transitions, digitalization, globalization and recent pandemic covid-19 disruption, higher education across the globe is in process of massive changes. Unfortunately, Pakistani university culture is like a factory model or the forced-feed one which has reached its limits but unfortunately our higher education leaders don’t know how to move forward. Leadership should not have vision and courage to lead to future but also make this process participative and inclusive <span class="citation" data-cites="Sohail2018">Inayatullah and Ithnin (<a href="#ref-Sohail2018" role="doc-biblioref">2018</a>)</span>. Universities are at the most trying to build themselves to attain status as opposed to broad set of institutional outcomes having utility for the society.</p>
+<p>To get their improved ranking, they are rejecting more students than accepting. How universities can transform to have inclusive learning and using technological changes can provide education to all at a very low cost. This changing role of universities will create a demographic dividend for Pakistan which may play an active role for economic prosperity besides reducing skill inequalities. Changing university education by having full time in person to digital emersion for online students, part time learning for workers and courses for people of every age will help to have opportunities to excel now and in future. This study contributes to reimagining university education to tap opportunities created by covid-19 disruption and enabling graduates to learn the process of getting skills. Future jobs skills are hardly known to anyone. Traditional university education system is misaligned with current job market and simply adding technological learning management system on it will not resolve the issue.There is a huge gap to bring educational system at par with emerging needs of the hour. Simple singular narrative of making universities at par with the requirements of the 3rd decade of the 21st century will not suffice going forward.</p>
+<p>To face complexification of learning needs, there is need for re-thinking the entire learning paradigm. There is need to switch from one time learning mode for a given number of years to life long learning mode. Jobs will now not be secured for life time, therefore, there is need to provide part time opportunities. Nevertheless, these challenges also offer new opportunities which will lead to convergence for those who will get maximum benefits fo the use of digital tools effectively. One has to keep on learning for a long period of one’s life. Secondly in developing countries, a very small percent of population makes to tertiary education. There is an urgent need for universities to introduce part-time studentship opportunities to enable graduates to upgrade their skills and those willing to earn part-time degree may get a chance. Therefore, universities need to offer online learning programs to retrain existing employers and for upskilling of their jobs. Academic institutions inertia is a real but its not alone academic institutions, but onus is also on companies just as much as it is on higher education to meet the challenges of changing nature of jobs. The reskilling crisis is emerging very rapidly and the dilemma is Pakistan is niether ready to realize this crisis nor any preparation in near future to bridge this ever increasing reskilling crisis. Pakistani academia, companies and governments have long been trained in a way where issues can be resolved with more hard-work with mediocre skills rather increasing productivity with better skills and smart work instead of hard work. Survey results Complexity of the 21st century challenges required new skills and CONTINUOUS LEARNING approach. Now, neither universities nor companies are thinking hard to devise measures to deal with this complexification.</p>
+<p>Use of educational technology alone in universities will provide market-oriented skills is largely inaccurate assumption. Our traditional educational system which is misaligned to the needs of the students and society will deliver no good by just adding any Learning Modular System. Though it is claimed that skills are given more weightage than degrees but still even in country like United States a college degree signal sends a strong signal and current working learners are not preferred over those who carry degrees. Instead of focusing on degrees, it is important to have precise and relevant education tailored to the needs of society, employers and learners. Right skills at the right time in the right pathways are needed.</p>
+<p>Can one think where universities offer part time degrees in Pakistan so that continuous working learners are not left behind just because of a degree signal. For this one has to redevise course structure as there are a number of courses like Pakistan Study, English, Islamic Study and many other general courses required to complete a degree. Such courses are not required for those who are in jobs and need degrees relevant to their skills to move higher ladder in their career. But our universities dont have any program so these can serve those un-served ones. Signaling power of degree is so strong that there is no equal in job market to it. Dr.&nbsp;Michael Crow “Universities should be great contributors to society rather universities to be great contributors to themselves. Each university is trying to be as good as Harvard, Berkeley and Yale. Many may achieve the goal and what else is to achieve if its done.</p>
+<p>Building institutions around the sole attainment of status as opposed to a broader set of institutional outcomes, which would include - status on the list - achievement on the list but also achieve somewhat impact. Emergence of new kind of institutions is needed with having digital immersion. We are all about creating, discovering, analyzing, synthesizing, storing and transferring knowledge. That’s what we do between and among generations.</p>
+</section>
+<section id="problem-based-learning-ecosystem" class="level3">
+<h3 class="anchored" data-anchor-id="problem-based-learning-ecosystem">Problem Based Learning Ecosystem</h3>
+<p>21st century 3rd decade learning pathways must be different and move away from memorization and standardized testing to problem-based learning. Hands-on experimentation is required where learners engage in productive struggle, persist and learn just in time-specific disciplinary concepts. Secondly, there is not a single problem in real life which can be solved in isolation. Solution to problem requires multidisciplinary approaches but unfortunately our university system is providing degrees in complete isolation to each other and even within same faculty, departments/schools are working in silos. Use talent development as a blueprint for varying the problems and building the solutions that are happening in our community everyday. There is need that policymakers, workforce, learning providers and employers understand skill gaps to work out how to close those gaps through design and development of well-established and more precise learning pathways.</p>
+</section>
+</section>
+<section id="survey-results" class="level2">
+<h2 class="anchored" data-anchor-id="survey-results">Survey Results</h2>
+<p>We have conducted two surveys. In one of the survey, main question was how career counseling contribute to students’ academic performance and in their career decision making. In second survey, questions regarding future job challenges and soft skills required to meet those challenges were asked mainly from final year graduate and research postgraduate students. Additionally, some results from a survey conducted from 14000 free lancing individuals are reported. These individuals are working as free lancers both in national and international market after getting digital skills from Digiskills, Ignite, Ministry of Finance, Islamabad. Results of first two surveys are not completely random and may suffer from high response bias. Therefore, confirmatory data analysis is not performed, and results are mainly based on exploratory data analysis.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>✔ ggplot2 3.3.6     ✔ purrr   0.3.4
+✔ tibble  3.1.7     ✔ dplyr   1.0.9
+✔ tidyr   1.2.0     ✔ stringr 1.4.0
+✔ readr   2.1.2     ✔ forcats 0.5.1</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gridExtra)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'gridExtra'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:dplyr':
+
+    combine</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(googlesheets4)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Career_survey &lt;- read_csv("career_survey.csv")</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>Career_survey<span class="ot">&lt;-</span><span class="fu">read_sheet</span>(<span class="st">'https://docs.google.com/spreadsheets/d/1Qyw7TUNExdlsLaV55PH9SKjrPw5b6hng0oRxsVgIL9Q/edit?resourcekey#gid=607567742'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>! Using an auto-discovered, cached token.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>  To suppress this message, modify your code or options to clearly consent to
+  the use of a cached token.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>  See gargle's "Non-interactive auth" vignette for more details:</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>  &lt;https://gargle.r-lib.org/articles/non-interactive-auth.html&gt;</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ The googlesheets4 package is using a cached token for 'g.zahid@gmail.com'.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>✔ Reading from "Untitled form (Responses)".</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>✔ Range 'Form responses 1'.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(Career_survey)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 203
+Columns: 33
+$ Timestamp                                                                                                                                                      &lt;dttm&gt; …
+$ `Name (Optional)`                                                                                                                                              &lt;chr&gt; …
+$ `Email (Optional)`                                                                                                                                             &lt;chr&gt; …
+$ Gender                                                                                                                                                         &lt;chr&gt; …
+$ `Program of study`                                                                                                                                             &lt;chr&gt; …
+$ `Name of the degree Program (e.g BBA/BS Sociology/...)`                                                                                                        &lt;chr&gt; …
+$ `How do you feel about career planning?`                                                                                                                       &lt;chr&gt; …
+$ `Do you think that Artificial Intelligence, Machine Learning, Robotics and Other automation are serious threats to your job prospects in 5 to 10 years times.` &lt;chr&gt; …
+$ `Have you learned about different careers other than those of your family careers?`                                                                            &lt;chr&gt; …
+$ `Do you know how to find information about jobs and careers?`                                                                                                  &lt;chr&gt; …
+$ `Have you thought about how jobs and careers may change in the future?`                                                                                        &lt;chr&gt; …
+$ `Do you understand the options you have for education and work after you leave university?`                                                                    &lt;chr&gt; …
+$ `Can you list your strengths related to the skills you possess?`                                                                                               &lt;chr&gt; …
+$ `Do you feel you can create a CV?`                                                                                                                             &lt;chr&gt; …
+$ `Are you comfortable speaking in front of a group of people?`                                                                                                  &lt;chr&gt; …
+$ `Do you have ideas about what you might do in the future?`                                                                                                     &lt;chr&gt; …
+$ `Do you have ideas about which careers match your interests and skills?`                                                                                       &lt;chr&gt; …
+$ `Over the last year, have you developed listening, teamwork and problem solving skills?`                                                                       &lt;chr&gt; …
+$ `Do you know yet what career areas you are interested in?`                                                                                                     &lt;chr&gt; …
+$ `If you can, please list one or more career areas that you think will become very challenging in next 5 years.`                                                &lt;chr&gt; …
+$ `Which of the following have you done? Check as many as apply.`                                                                                                &lt;chr&gt; …
+$ `How would you rate your strength in the following career skills? [Communcation skill]`                                                                        &lt;chr&gt; …
+$ `How would you rate your strength in the following career skills? [Communicating in writing]`                                                                  &lt;chr&gt; …
+$ `How would you rate your strength in the following career skills? [Working with people]`                                                                       &lt;chr&gt; …
+$ `How would you rate your strength in the following career skills? [Working with data and numbers]`                                                             &lt;chr&gt; …
+$ `How would you rate your strength in the following career skills? [Dressing appropriately for a workplace]`                                                    &lt;chr&gt; …
+$ `How would you rate your strength in the following career skills? [Being on time for work or meetings]`                                                        &lt;chr&gt; …
+$ `How would you rate your strength in the following career skills? [Having good attendance]`                                                                    &lt;chr&gt; …
+$ `How would you rate your strength in the following career skills? [Understanding workplace safety rules]`                                                      &lt;chr&gt; …
+$ `How would you rate your strength in the following career skills? [Being motivated and taking initiative]`                                                     &lt;chr&gt; …
+$ `Anything you want to say about future career challenges and opportunities or related feedback`                                                                &lt;chr&gt; …
+$ `Are you familiar how Artificial Intelligence, Robots, Machine Learning and other new technologies are a challenge to your future job?`                        &lt;chr&gt; …
+$ `Name of the University`                                                                                                                                       &lt;chr&gt; …</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>career<span class="ot">&lt;-</span>Career_survey <span class="sc">%&gt;%</span> <span class="fu">rename</span>(<span class="at">time=</span>Timestamp,<span class="at">name=</span><span class="st">`</span><span class="at">Name (Optional)</span><span class="st">`</span>,<span class="at">email=</span><span class="st">`</span><span class="at">Email (Optional)</span><span class="st">`</span>,<span class="at">program=</span><span class="st">`</span><span class="at">Program of study</span><span class="st">`</span>, <span class="at">subject=</span> <span class="st">`</span><span class="at">Name of the degree Program (e.g BBA/BS Sociology/...)</span><span class="st">`</span>, <span class="at">career_entry=</span><span class="st">`</span><span class="at">How do you feel about career planning?</span><span class="st">`</span>, <span class="at">tech_challenges=</span><span class="st">`</span><span class="at">Do you think that Artificial Intelligence, Machine Learning, Robotics and Other automation are serious threats to your job prospects in 5 to 10 years times.</span><span class="st">`</span>, <span class="at">notfamily_career=</span><span class="st">`</span><span class="at">Have you learned about different careers other than those of your family careers?</span><span class="st">`</span>, <span class="at">job_info=</span><span class="st">`</span><span class="at">Do you know how to find information about jobs and careers?</span><span class="st">`</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>, <span class="at">future_job=</span><span class="st">`</span><span class="at">Have you thought about how jobs and careers may change in the future?</span><span class="st">`</span>,<span class="at">job_options=</span><span class="st">`</span><span class="at">Do you understand the options you have for education and work after you leave university?</span><span class="st">`</span>,<span class="at">cv_creation=</span><span class="st">`</span><span class="at">Do you feel you can create a CV?</span><span class="st">`</span>,<span class="at">skill_strengths=</span><span class="st">`</span><span class="at">Can you list your strengths related to the skills you possess?</span><span class="st">`</span>,<span class="at">future_plan=</span> <span class="st">`</span><span class="at">Do you have ideas about what you might do in the future?</span><span class="st">`</span>,<span class="at">skill_job_match=</span><span class="st">`</span><span class="at">Do you have ideas about which careers match your interests and skills?</span><span class="st">`</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>,<span class="at">career_interest=</span><span class="st">`</span><span class="at">Do you know yet what career areas you are interested in?</span><span class="st">`</span>, <span class="at">group_talk=</span><span class="st">`</span><span class="at">Are you comfortable speaking in front of a group of people?</span><span class="st">`</span>,<span class="at">team_skills=</span> <span class="st">`</span><span class="at">Over the last year, have you developed listening, teamwork and problem solving skills?</span><span class="st">`</span>,<span class="at">comm_skills=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Communcation skill]</span><span class="st">`</span>,<span class="at">writing_skills=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Communicating in writing]</span><span class="st">`</span>,<span class="at">working_data_numbers=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Working with data and numbers]</span><span class="st">`</span>,<span class="at">working_with_people=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Working with people]</span><span class="st">`</span>, <span class="at">dressing_properly=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Dressing appropriately for a workplace]</span><span class="st">`</span>,<span class="at">punctuality=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Being on time for work or meetings]</span><span class="st">`</span>, <span class="at">attendance=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Having good attendance]</span><span class="st">`</span>,<span class="at">workplace_safety=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Understanding workplace safety rules]</span><span class="st">`</span>,<span class="at">motivation_and_initiative=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Being motivated and taking initiative]</span><span class="st">`</span>,<span class="at">other_comments=</span><span class="st">`</span><span class="at">Anything you want to say about future career challenges and opportunities or related feedback</span><span class="st">`</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>career<span class="ot">&lt;-</span>career <span class="sc">%&gt;%</span> <span class="fu">rename</span>(</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">cv_creation=</span><span class="st">`</span><span class="at">Do you feel you can create a CV?</span><span class="st">`</span>,<span class="at">skill_strengths=</span><span class="st">`</span><span class="at">Can you list your strengths related to the skills you possess?</span><span class="st">`</span>,<span class="at">future_plan=</span> <span class="st">`</span><span class="at">Do you have ideas about what you might do in the future?</span><span class="st">`</span>,<span class="at">skill_job_match=</span><span class="st">`</span><span class="at">Do you have ideas about which careers match your interests and skills?</span><span class="st">`</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>,<span class="at">career_interest=</span><span class="st">`</span><span class="at">Do you know yet what career areas you are interested in?</span><span class="st">`</span>, <span class="at">group_talk=</span><span class="st">`</span><span class="at">Are you comfortable speaking in front of a group of people?</span><span class="st">`</span>,<span class="at">team_skills=</span> <span class="st">`</span><span class="at">Over the last year, have you developed listening, teamwork and problem solving skills?</span><span class="st">`</span>,<span class="at">comm_skills=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Communcation skill]</span><span class="st">`</span>,<span class="at">writing_skills=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Communicating in writing]</span><span class="st">`</span>,<span class="at">working_data_numbers=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Working with data and numbers]</span><span class="st">`</span>,<span class="at">working_with_people=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Working with people]</span><span class="st">`</span>, <span class="at">dressing_properly=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Dressing appropriately for a workplace]</span><span class="st">`</span>,<span class="at">punctuality=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Being on time for work or meetings]</span><span class="st">`</span>, <span class="at">attendance=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Having good attendance]</span><span class="st">`</span>,<span class="at">workplace_safety=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Understanding workplace safety rules]</span><span class="st">`</span>,<span class="at">motivation_and_initiative=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Being motivated and taking initiative]</span><span class="st">`</span>,<span class="at">other_comments=</span><span class="st">`</span><span class="at">Anything you want to say about future career challenges and opportunities or related feedback</span><span class="st">`</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co">#career1&lt;-career %&gt;% mutate_at(c("tech_challenges","notfamily_career","job_info","future_job","job_options","skill_strengths","cv_creation","group_talk","future_plan","skill_job_match","team_skills"), funs(recode(.,`No, not yet`=1, `No , not yet`=1, `Probably, I'm not sure`=2, `Yes to some extent`=3,`Yes to a great extent`=4,.default = NaN)))</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="co">#career %&gt;% select(comm_skills) %&gt;% group_by(comm_skills) %&gt;% </span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="co">#  summarise(n=n()) %&gt;% </span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="co">#  mutate(freq = n*100 / sum(n))</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stringr)</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>c1<span class="ot">&lt;-</span>career <span class="sc">%&gt;%</span> <span class="fu">select</span>(comm_skills) <span class="sc">%&gt;%</span> </span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x=</span>comm_skills))<span class="sc">+</span><span class="fu">geom_bar</span>()<span class="sc">+</span><span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"How would you rate your strength </span><span class="sc">\n</span><span class="st"> in the following career skills?"</span>)<span class="sc">+</span><span class="fu">theme_minimal</span>()<span class="sc">+</span><span class="fu">coord_flip</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-6-2.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-6-3.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>This is an exploratory analysis indicating that relatively large number of respondents believe in skills like hard work and puntuality than being smart as is indicative from above mentioned graph. For soft skills a large number of respondents are not very confident and report as <strong>In_between</strong> for writing skills, working in a team, motivation and initiative, working with data and numbers (most of the respondents are from statistics and economics discipline) and in other skills. There is no substitute for hardwork but at the same time, without smart work, it seems remote possibility that our youth can excel in future just with hard work but having low proficiency in soft skills. On the other hand, in soft skills required to work smart, most of the graduate students are not very confident and indicate they have skills in between. This survey was based on self reported confidence which is usually biased upward. As mentioned earlier that findings from this survey are preliminary and one can not generalize from this over other.</p>
+</section>
+<section id="career-counseling" class="level2">
+<h2 class="anchored" data-anchor-id="career-counseling">Career Counseling</h2>
+<p>A survey mainly from entry level graduates was conducted from 112 students. This survey does not not fulfill criteria of random sampling, so I am not generalizing results on the basis of statistical inference. During the survey it was realised that one of the reasons for poor performance of graduate students during their studies is lack of mentoring and counseling to choose right discipline. Many of the students join a discipline at random. Following are the responses to one the question asked: * Do you think choice of degree would have been better if you were provided career counseling before admission to a university?* and * Do you think career counseling be made mandatory before joining university?*</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Response</th>
+<th>%age</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Yes</td>
+<td>68.8%</td>
+</tr>
+<tr class="even">
+<td>No</td>
+<td>13.4%</td>
+</tr>
+<tr class="odd">
+<td>Maybe</td>
+<td>17.9%</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="choice-of-degree-with-career-would-have-been-better-with-counseling" class="level2">
+<h2 class="anchored" data-anchor-id="choice-of-degree-with-career-would-have-been-better-with-counseling">Choice of degree with career would have been better with counseling</h2>
+<table class="table">
+<caption>Should career-counseling be mandatory</caption>
+<colgroup>
+<col style="width: 27%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Response</th>
+<th>% response</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Strongly agree</p>
+<p>Agree</p>
+<p>Nuetral</p>
+<p>Disagree</p>
+<p>Strongly Disagree</p></td>
+<td><p>67.5%</p>
+<p>26.3%</p>
+<p>5.5%</p>
+<p>0.7%</p>
+<p>0%</p></td>
+</tr>
+</tbody>
+</table>
+<p>These preliminary results indicate that career counseling is one great missing link when students decide about their degree after 12 years of education. This results not only in poor academic performance but also becomes a hindrance in their continuous learning process which is important for youth to prepare itself for future jobs which even dont exist yet. Element of mentoring, counseling and helping youth to make informed decisions about their careers are some important aspects to prepare our youth for future jobs and to make them a continuous learners rather being discouraged and dejected young ones..</p>
+<p><strong>Free lancers earnings</strong> Following are the results obtained from 14000 free lancing earners in Pakistan who registered themselves in DigiSkills program run by Ignite under Ministry of Finance. Data from this survey indicate that skills helps to earn a good livelihood even if one has not high degree.</p>
+<table class="table">
+<caption>Average earnings per month in USD by qualification</caption>
+<thead>
+<tr class="header">
+<th>Qualification</th>
+<th>Earnings (USD)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Matric</td>
+<td>165.54</td>
+</tr>
+<tr class="even">
+<td>Intermediate</td>
+<td>156.76</td>
+</tr>
+<tr class="odd">
+<td>Bachelor</td>
+<td>198.94</td>
+</tr>
+<tr class="even">
+<td>Masters</td>
+<td>117.54</td>
+</tr>
+<tr class="odd">
+<td>PhDs</td>
+<td>350.00</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="conlcusion" class="level2">
+<h2 class="anchored" data-anchor-id="conlcusion">Conlcusion</h2>
+<p>As <span class="citation" data-cites="Weise2021">Weise (<a href="#ref-Weise2021" role="doc-biblioref">2021</a>)</span> has rightly pointed out in her book that if we want to move from a future we dont want to a future we want, we have to consciously practice bold thinking to achieve the desired future. Current practice in public sector universities is restricted to manage themselves rather working on problems society is facing. As a result young learners are also neither well motivated and guided nor moving on a continuous learning path. They are getting degrees through which a small percent of them are getting jobs while majority remains worried about their future. There is need to shift from a factory-model (enforced content based learning) to interactive, engaged and problem solving learning ecosystem. Opinion survey results indicate that our youth is ready to work hard but there is need that it gets proper mentoring which help them to move on a continuous learning path and youth not only work hard but also learn how to work smart. Probably there is need to change a mindset “Slow and steady wins the race” to “Smart and steady wins the race” and from being a <em>jack of none and master of one</em> to <em>jack of many and master of few</em> for preparing our youth for future challenges.</p>
+</section>
+<section id="references" class="level1 unnumbered">
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-AmericanAAS2018" class="csl-entry" role="doc-biblioentry">
+Arts, American Academy of, and Sciences. 2017. <span>“The Future of Undergraduate Education, the Future of America (Cambridge, MA: Author, 2017).”</span>
+</div>
+<div id="ref-Colin2018" class="csl-entry" role="doc-biblioentry">
+Colin Magee, Jean Hammond, and Tetyana Astashkina. 2018. <span>“The State of Workforce EdTech: A Look at Funding &amp; Innovation in Modern Workforce Education (Boston: LearnLaunch, 2018).”</span>
+</div>
+<div id="ref-Coyle2021" class="csl-entry" role="doc-biblioentry">
+Coyle, Diane. 2021. <span>“COGS and MONSTERS What Economics Is, and What Should It Be.”</span>
+</div>
+<div id="ref-Sohail2018" class="csl-entry" role="doc-biblioentry">
+Inayatullah, Sohail, and Fazidah Ithnin. 2018. <span>“Transformation 2050: The Alternative Futures of Malaysian Universities.”</span>
+</div>
+<div id="ref-PorterandRivkin2014" class="csl-entry" role="doc-biblioentry">
+Porter, Michael E., and Jan W. Rivkin. 2014. <span>“An Economy Doing Half Its Job: Findings of Harvard Business School’s 2013–14 Survey on u.s. Competitiveness.”</span>
+</div>
+<div id="ref-Weise2021" class="csl-entry" role="doc-biblioentry">
+Weise, Michelle R. 2021. <span>“Long Life Learning: Preparing for Jobs That Don’t Even Exist Yet.”</span>
+</div>
+</div></section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

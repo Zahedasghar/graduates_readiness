@@ -1,22 +1,17 @@
 ---
-title: "Module 3 html"
+title: "Module 3 Word File"
 author: "Zahid Asghar"
 date: "2/26/2022"
-output:
+output: 
   word_document:
-    toc: yes
-  html_document:
-    keep_md: yes
-    toc: yes
-    toc_float: yes
-    code_folding: yes
+    reference_docx: word_style_refernce.docx
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown   {#nextsteps .emphasized}
+## R Markdown
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
