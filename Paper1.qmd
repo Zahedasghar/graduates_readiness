@@ -101,7 +101,7 @@ Exploring all what has been said before requires huge amount of work. To assess 
 
 ```{r }
 #| echo: false
-#| warning: false
+
 library(tidyverse)
 library(readr)
 library(readxl)
@@ -111,7 +111,6 @@ library(gtExtras)
 library(googlesheets4)
 #Career_survey <- read_csv("career_survey.csv")
 Career_survey<-read_sheet('https://docs.google.com/spreadsheets/d/1Qyw7TUNExdlsLaV55PH9SKjrPw5b6hng0oRxsVgIL9Q/edit?resourcekey#gid=607567742')
-glimpse(Career_survey)
 career<-Career_survey %>% rename(time=Timestamp,name=`Name (Optional)`,email=`Email (Optional)`,program=`Program of study`, subject= `Name of the degree Program (e.g BBA/BS Sociology/...)`, career_entry=`How do you feel about career planning?`, tech_challenges=`Do you think that Artificial Intelligence, Machine Learning, Robotics and Other automation are serious threats to your job prospects in 5 to 10 years times.`, notfamily_career=`Have you learned about different careers other than those of your family careers?`, job_info=`Do you know how to find information about jobs and careers?`, future_job=`Have you thought about how jobs and careers may change in the future?`,job_options=`Do you understand the options you have for education and work after you leave university?`,cv_creation=`Do you feel you can create a CV?`,skill_strengths=`Can you list your strengths related to the skills you possess?`,future_plan= `Do you have ideas about what you might do in the future?`,skill_job_match=`Do you have ideas about which careers match your interests and skills?` ,career_interest=`Do you know yet what career areas you are interested in?`, group_talk=`Are you comfortable speaking in front of a group of people?`,team_skills= `Over the last year, have you developed listening, teamwork and problem solving skills?`,comm_skills=`How would you rate your strength in the following career skills? [Communcation skill]`,writing_skills=`How would you rate your strength in the following career skills? [Communicating in writing]`,working_data_numbers=`How would you rate your strength in the following career skills? [Working with data and numbers]`,working_with_people=`How would you rate your strength in the following career skills? [Working with people]`, dressing_properly=`How would you rate your strength in the following career skills? [Dressing appropriately for a workplace]`,punctuality=`How would you rate your strength in the following career skills? [Being on time for work or meetings]`, attendance=`How would you rate your strength in the following career skills? [Having good attendance]`,workplace_safety=`How would you rate your strength in the following career skills? [Understanding workplace safety rules]`,motivation_and_initiative=`How would you rate your strength in the following career skills? [Being motivated and taking initiative]`,other_comments=`Anything you want to say about future career challenges and opportunities or related feedback`)
 saveRDS(career,file="career_data.Rds")
 
