@@ -1,0 +1,84 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Journal_article.aux
+The style file: agsm.bst
+Database file #1: bibliography.bib
+Name 1 in "Colin Magee, Jean Hammond, and Tetyana Astashkina" has a comma at the end for entry Colin2018
+while executing---line 1222 of file agsm.bst
+Name 1 in "Colin Magee, Jean Hammond, and Tetyana Astashkina" has a comma at the end for entry Colin2018
+while executing---line 1222 of file agsm.bst
+Name 1 in "Crow, Michael M., and William B. Dabars" has a comma at the end for entry CrowDabars2020
+while executing---line 1222 of file agsm.bst
+Name 1 in "Crow, Michael M., and William B. Dabars" has a comma at the end for entry CrowDabars2020
+while executing---line 1222 of file agsm.bst
+Name 1 in "Colin Magee, Jean Hammond, and Tetyana Astashkina" has a comma at the end for entry Colin2018
+while executing---line 1258 of file agsm.bst
+Name 1 in "Crow, Michael M., and William B. Dabars" has a comma at the end for entry CrowDabars2020
+while executing---line 1258 of file agsm.bst
+Name 1 in "Crow, Michael M., and William B. Dabars" has a comma at the end for entry CrowDabars2020
+while executing---line 1262 of file agsm.bst
+Name 1 in "Colin Magee, Jean Hammond, and Tetyana Astashkina" has a comma at the end for entry Colin2018
+while executing---line 1262 of file agsm.bst
+Name 1 in "Colin Magee, Jean Hammond, and Tetyana Astashkina" has a comma at the end for entry Colin2018
+while executing---line 1294 of file agsm.bst
+Name 1 in "Colin Magee, Jean Hammond, and Tetyana Astashkina" has a comma at the end for entry Colin2018
+while executing---line 1294 of file agsm.bst
+Name 1 in "Crow, Michael M., and William B. Dabars" has a comma at the end for entry CrowDabars2020
+while executing---line 1294 of file agsm.bst
+Name 1 in "Crow, Michael M., and William B. Dabars" has a comma at the end for entry CrowDabars2020
+while executing---line 1294 of file agsm.bst
+Name 1 in "Colin Magee, Jean Hammond, and Tetyana Astashkina" has a comma at the end for entry Colin2018
+while executing---line 1327 of file agsm.bst
+Name 1 in "Crow, Michael M., and William B. Dabars" has a comma at the end for entry CrowDabars2020
+while executing---line 1327 of file agsm.bst
+Warning--empty booktitle in Brynjolfsson2011RaceAT
+Name 1 in "Colin Magee, Jean Hammond, and Tetyana Astashkina" has a comma at the end for entry Colin2018
+while executing---line 1346 of file agsm.bst
+Name 1 in "Colin Magee, Jean Hammond, and Tetyana Astashkina" has a comma at the end for entry Colin2018
+while executing---line 1346 of file agsm.bst
+Name 1 in "Crow, Michael M., and William B. Dabars" has a comma at the end for entry CrowDabars2020
+while executing---line 1346 of file agsm.bst
+Name 1 in "Crow, Michael M., and William B. Dabars" has a comma at the end for entry CrowDabars2020
+while executing---line 1346 of file agsm.bst
+You've used 11 entries,
+            2909 wiz_defined-function locations,
+            699 strings with 6661 characters,
+and the built_in function-call counts, 38681 in all, are:
+= -- 6281
+> -- 498
+< -- 0
++ -- 2959
+- -- 147
+* -- 3253
+:= -- 7919
+add.period$ -- 11
+call.type$ -- 11
+change.case$ -- 151
+chr.to.int$ -- 11
+cite$ -- 12
+duplicate$ -- 170
+empty$ -- 310
+format.name$ -- 202
+if$ -- 6921
+int.to.chr$ -- 5
+int.to.str$ -- 0
+missing$ -- 13
+newline$ -- 39
+num.names$ -- 115
+pop$ -- 78
+preamble$ -- 1
+purify$ -- 165
+quote$ -- 0
+skip$ -- 128
+stack$ -- 0
+substring$ -- 8709
+swap$ -- 13
+text.length$ -- 154
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 38
+warning$ -- 1
+while$ -- 233
+width$ -- 0
+write$ -- 133
+(There were 18 error messages)

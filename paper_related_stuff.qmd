@@ -1,0 +1,689 @@
+---
+title: "paper_related_stuff"
+format: docx
+editor: visual
+---
+
+## Future Jobs and Universities' Role
+
+World has been changing very fast due to the digital revolution and other technological changes. Covid-19 disruption has accelerated the pace of penetration of digital technologies, artificial intelligence and machine learning even in the lives of common people. After Covid-19 pandemic many jobs have either become obsolete or at least require a new/updated set of skills to continue one's job. Many workers will never regain their pre-covid jobs as those jobs will never be back in the market and many new post-covid jobs skills may be more challenging and or different in nature. Fast technological changes have made so many new jobs available. What are skills required for future jobs is a question whose answer is not known to anyone because there are a large number of future jobs which don't exist yet. What is a way forward in such a situation? This requires deep introspection and integrated thinking about the learning model to be adopted.
+
+Moreover, life expectancy has been increasing by two to three years with each decade in the past two centuries. It is expected that life expectancy of people born in the next 30 years may reach 150 years. With increased life expectancy and work life spanning over 50 to 80 years , there will be a remote possibility that one enters a job and retires from there. One has to switch more than a dozen jobs in one's life span. Each job will have a somewhat different nature of skills, so one can be in the job market only if one is continuously updating one's skills.
+
+Due to increased life expectancy, one has to re-imagine **LEARN, EARN AND REST to LEARN and EARN, LEARN and EARN, and LEARN and EARN...** This continuously changing nature of job skills demands that one has to adapt oneself in a continuous learning mode to meet future challenges.
+
+According to Sohail Inayatullah (futurist), often organizations think when some disruption happens or they miss something. Futuristic thinking means that working on problems before some structural change makes one redundant. According to him, often people think about the future, it is out there- Robotic, Space travel, etc. Future is not like an empty space, it is like the past. It is an active aspect of the present and thinking about the future is to change as today.
+
+Now the question is: are there such opportunities of continuously improving one's skills or learning new skills? Many jobs still prefer a degree and ask what one knows rather than what one can do. To resolve the issue of having a degree for those who have skills, are we ready for part time learning opportunities in our universities and colleges? This will help millions who know the skills but go out of the labour force because they dont have degree and degree signaling effect is very strong. Are there programs available where one can learn new skills while staying on job? Will our universities serve those who are unserved?
+
+Even if our graduates are well trained and have requisite skills for the job market, there is a skill gap emerging overtime due to technological advances. As a result either they will become less productive or unemployed altogether. Currently, there are very limited opportunities available for upskilling.
+
+Moreover, who will cater the needs of burgeoning youth who didn't get opportunities for higher education either due to high cost of education or due to somehow getting lower scores in some class(es) and did not secure a seat. These fundamental questions need to be addressed at national, provincial, regional and university level.
+
+How is our education system taking up this pace of technology change? Are we preparing children for jobs of the future and kinds of industry and economy within that when they leave college/university? Jeremy Howard (data scientist and AI) says not at all. He says its sad that basic computer skills and basic data analysis tools are not taught the way it should be even in the US.In her book [Long Life Learning: Preparing for Jobs that Don't Even Exist Yet](https://www.wiley.com/en-sg/Long+Life+Learning:+Preparing+for+Jobs+that+Don't+Even+Exist+Yet-p-9781119597483) ,Michelle R. Weise asks for developing a comprehensive Learning Ecosystem and to shift goal posts from TIME as fixed and LEARNING as variable to keep LEARNING fixed and TIME as variable. When LEARNING will be fixed then it will not matter whether its online platform or Physical (full time/part time) as one can't go to the next step unless one has those pre-requisite skills. She also emphasizes that the university learning ecosystem should enable graduates to start moving on a continuous learning path rather than simply focusing on imparting certain skills. It's a very timely book providing enough food for thought for all of us to rethink our higher education system to meet the challenges of new technologies
+
+Pakistan has a youth bulge and economic growth is not sufficient to absorb it in the labor force market. On the positive aspect, due to digital technologies many jobs have become global in nature. How can one compete in a fast changing domestic and global market in the Silicon Valley era? Traditional university education system is misaligned with the current job market and simply adding a technological learning management system to it will not resolve the issue. The future of both higher education and jobs is uncertain, and many potential futures exist. In order to move from a future we don't want to move to a future we want, we have to think and practice boldly.
+
+In her book [Long Life Learning: Preparing for Jobs that Don't Even Exist Yet](https://www.wiley.com/en-sg/Long+Life+Learning:+Preparing+for+Jobs+that+Don't+Even+Exist+Yet-p-9781119597483) ,Michelle R. Weise highlights that due to the fast changing world and due to rapid emergence and penetration of digital technologies, artificial intelligence, Machine Learning among many others, there is a need to develop a new learning ecosystem. This book is written mainly for a country like the United States but these points are equally important for low income countries like Pakistan.
+
+## FUTURE SKILLS THE 20 SKILLS AND COMPETENCIES EVERYONE NEEDS TO SUCCEED IN A DIGITAL WORLD
+
+85% of the jobs in 2030 dont exist yet may not be exactly true but is an important point to ponder about. If these jobs will exist, skill set required to perform tasks on these jobs will definitely demand more than that of now. Advances by technology/computing will change almost every job if not replace.
+
+Technology will make us more human and routine non-thinking jobs will be by machines while distinctly human skills- complex-decision making, creativity, empathy and emotional intelligence, critical thinking, communication and many others will outperform intelligent machines. Employers are facing great chasm between skills eventually availing and the skills human require.
+
+Coding and other technical skills will definitely be in more demand and these skills will help for problem solving skills. Main requirement will be to have soft skills basically the machines cant do.
+
+
+Bunard MARR mentions 20 skills and competencies everyone needs to succeed in a digital world.
+
+Digital Literacy is the first on the list and it does not mean its human vs machines as per Kate Darling author of "The New Breed: How to Think About Robots". In a changing world, digital skills will grow stark and need refreshing for which new norm will be continual learning with positive mindset. Digital literacy means skills needed to learn, work, and navigate everyday life in our increasingly digital world.
+
+Digital literacy implies being able to use digital devices, software and application whether in everyday life or in educational settings or in the workplace for communicating, collaborating, and sharing information with others via digital tools.
+
+It means ability to handling data in an appropriate, effective and secure way, staying safe in digital environment, keeping abreast of emerging new technologies and having awareness about data privacy.
+
+Why digital literacy matter? All my work gone digital. Intelligent machines, robots, AI, ML, sensors
+
+AI augmenting every job and has become more important than electricity and fire. Creative AI requires no code. AI is underpinned on data. It's data what allows machines to spot patterns and make predictions.
+
+Essential digital literacy skill means data literate: being able to read and use data effectively.
+
+Not necessarily a data analyst but able to access, interpret, and extract useful insights from whatever data is needed to do your job well and make decisions.
+
+Data: Quantum computing, cloud computing, edge computing
+
+
+
+Key take aways to improve digital literacy : continuous learner, positive mindset and data literacy.
+
+
+
+### Data Literacy
+
+Fourth industrial revolution or Industry 4.0 has plethora of smart devices all underpinned by data. "Data is a the fuel that powers this new age of constant technological breakthroughs." Data is now prized business asset so data literate individuals are required to.
+
+What is data literacy?
+
+-   Basic ability to understand and use data. This means
+
+    -   Access appropriate data needed for job and for informed decision making/discussion.
+
+    -   Work with data - creating data, gathering data, managing data to ensure its updated.
+
+    -   Find meaning in the number - what the data is and what it represents, analyzing the data , and uncovering actionable business insights and opportunities.
+
+    -   Communicate those insights to others in the business, telling compelling stories.
+
+    -   Question the data
+
+Whether you are scare of data : love it or loathe, its there for you.
+
+Why does literature matter?
+
+-   Data is the most important asset.
+
+-   Data is everywhere
+
+2020: 40 zetabytes of data in the world
+
+2025 : 75 zetabytes
+
+1 zetabyte=1000 exabyte
+
+1 exabyte=1000 petabyte
+
+1 petabyte=1000 terabyte
+
+1 terbaye=1000 GB
+
+1 GB= 1000 MB
+
+1MB= 1000KB
+
+1 KB= 1000 bytes
+
+1 zetabyte has 27 zeros on RHS
+
+Explosive demand for data skills
+
+Data : not in IT/Statistics/Economic thing, its modern business function
+
+46% of UK employees had struggled for data related roles. Being data literate maks you out from the crowd.
+
+Data speak 101
+
+Augmented analysis
+
+Data for data's sake is pointless
+
+Data makes people nervous.
+
+ARITHMOPHOBIA: traditional fear of
+
+-   Communicating insights from data is a valuable skill in itself
+
+" A picture paints a thousand words,. "
+
+Dont impress but reveal story with data.
+
+Data must be questioned and challenged.
+
+
+
+Ch3 Technical Skills
+
+Investing in the practical and physical skills needed to do jobs effectively.
+
+\
+
+Ch4 Digital Threat Awareness
+
+Digital addiction on the rise: " footprints are bigger than ever.
+
+Digital addictions: Social media and any other facebook and Instagram to be addictive.
+
+Dr. Anna Lembk, a world leader in treatment of addiction, refers to the smart phone as "The modern-day hypodermic needle.".
+
+\
+
+Ch5 Critical Thinking
+
+-   Era of fake news and social media: sheer volume of information,
+
+-   The ability to look at evidence , evaluate the trustworthiness of a source and think clearly is becoming increasingly important 
+
+-   Critical thinking objectively helps to be open, inquisitive mind, active, independent thinking as opposed to passively swallowing information and taking it at face value.
+
+Cognitive Biases: We are all under its influence. Our beliefs, thoughts and decisions, gender bias, stereotyping
+
+Cultural biases: other cultures less normal than others.
+
+Confirmation Bias: 
+
+Anchoring Bias: overinfluenced by the first piece of information, we hear
+
+Selection Bias: to notice something more, buy a new car and the then noting that all these makes on roads.
+
+\
+
+Attention seeking social media, come back again and again.
+
+Must watch movie "SOCIAL DILEMMA".
+
+Filter bubble: information we agree with based on our past behavior discards information
+
+"ECHO CHAMBER"
+
+Critical thinking helps us to step beyond filter bubble.
+
+" Am I seeing the world as it really is, or am only seeing a narrow slice that echoes my own beliefs."
+
+Distinction between misinformation and disinformation 
+
+Deepfakes dont confirm news from social media.
+
+"One of the many benefits of critical thinking is it enables you to make better decisions. This leads us very neatly into the next future skill: decision making."
+
+\
+
+Judgement and complex decision making is also an important skill. There is a concept of bounded rationality which mean rationality is limited. Inaction vs slow thinking
+
+Thinking fast and slow
+
+\
+
+One key reason for bad decisions is simplification.
+
+Optimism bias is where we underestimate that bad happening to use.
+
+Why complex decision making and judgement skills matters more than before. Its mainly there is information bombardment, media, social media, e-media
+
+So binary thinking is not a good idea or sufficient to have right decision making. 
+
+Dont be afraid to experiment "no one right decision- just different consequences."
+
+\
+
+Ch.7 Emotional intelligence and empathy: So long as human to human interaction is concerned, emptional quotient (EQ) is important:
+
+-   Listen others
+
+-   Other's shoes
+
+-   Identify and analyze your own emotions
+
+-   Be mindful : ponder what is going inside and around you - thoughts, feelings, sensations and the like  and use this understanding to analyze your feelings in more details.
+
+Ch8. Creativity: Creativity is ability dream a different future and bring ideas to life. It is an act of turning imaginative ideas into reality. 
+
+To be creative: go through two porcessess: thinking and then producing.
+
+\
+
+Imagination is not the same as creativity; creativity means bringing ideas into life. 
+
+The creative spark: Augustin Fentis argues that this ability to imagine something and then make it is what differentiates us from other species- and has drive the evolution of human race.
+
+Excellence is combination of training, motivation, encouragement an, opportunities, and , most of all practice.
+
+Creativity third most desired skill after problem solving and critical thinking. Creativity helps to ask questions, build yours network,
+
+Being creative, go to new places, look for partners, keep a journal, read more, unplug and create headspace, daydream, maintain a positive attitude and mindset, practice, practice and practice. 
+
+\
+
+Ch.9 Collaboration and Working in Teams
+
+What is collaboration?
+
+Collaboration means working with others to make collective decisions and achieve a common goal.
+
+Good collaborators
+
+-   Are active listeners
+
+-   Generous with their time, knowledge, experience, and engagement
+
+-   Adaptable
+
+-   Motivated
+
+-   Respectful
+
+-   Open to feedback
+
+\
+
+Ch 10. Communications 
+
+-   Exchange of ideas
+
+-   Non-verbal communication
+
+-   Assertive, aggressive, passive, and manipulative
+
+\
+
+Ch 11. Working in GIGS
+
+Full employment is no more a norm and future will be assignment based job/work. Free lance or project based economy will hire persons for short term. Gig economy is where workers or employees engage in short-term contracts or free-lance work, as opposed to permanent employment. 59% of gig workers are working in design, information technology, technical jobs etc. Concept of having jobs 9 to 5 is no more there and work has become flexible.
+
+Benefits of Gig Economy
+
+Gig economy work without borders and there is global talent pool. How to prepare for this is an important question when organic boundaries are becoming more porous, full-time permanent jobs no longer a norm.
+
+\
+
+Ch.12  Adaptability and Flexibility
+
+Change is not embraced, but its flexible people who see opportunities, not obstacles. Flexible people are open-minded about change. They are ready to accept new ideas, other people's views, other's experiences, different cultures and values, you name it.
+
+They are curious, continual learners,persue, creative, good decision makers, good collaborators
+
+Strong interpersonal skills
+
+Inflexible people are : close-minded, reject ideas, win rather compromise, may get defensive if feel threatened.
+
+Adaptability Quotient (AQ)
+
+Intelligent Quotient (IQ)
+
+Emotional Quotient (EQ)
+
+\
+\
+
+Ch.13: Cultural Intelligence and Diversity Consequences
+
+Like authentic brad/leader. Its important for individuals level to be authentic.
+
+Diversity is ways in which people can differ 
+
+-   Race
+
+-   Age
+
+-   Culture
+
+-   Gender
+
+-   Religion
+
+-   Sexual orientation
+
+-   Political beliefs
+
+-   Socio-economic status
+
+-   (dis)ability
+
+Cultural quotient is ability to relate culture.
+
+\
+
+Diversity, equity and design
+
+This matters for more than before because we are connected now globally. Collaboration across boundaries.
+
+\
+
+Ch 14 Ethical awareness
+
+\
+
+Ch 15 Leadership skills
+
+Jan Welch book "Winning" mentions "Before you are a leader, success is all about growing yourself. When you are a leader, success is all about growing others." 
+
+Simple definition of leadership is "Someone who grows others- but of course: communication, collaboration, creativity, decision making, fle, emotional intelligence, cultural intelligence, ethics and so on.
+
+Leadership is a collection of skill.
+
+Key qualities
+
+-   Motivating others
+
+-   Recognizing and fostering talent
+
+-   Inspiring trust
+
+-   Strategic thinking and planning
+
+-   Setting goals
+
+-   Giving and recognising feedback
+
+-   Team building
+
+-   Positivity
+
+-   Authenticity
+
+"Leaders eat the last."
+
+\
+
+Ch 16. Brand of "YOU" and Networking
+
+70% of employers research candidates online and 57% of them decided not to hire them.
+
+The top results are
+
+-   The candidate's profile and information supported their qualification for the job.
+
+-   The candidate showed creativity
+
+-   The candidate contents conveyed professionally
+
+-   Online image and reputation show you as knowledgeable, creative, thoughtful and how authentic person you are.
+
+How to boost personal brand
+
+-   Find your niche and expand gradually
+
+-   Think strategically
+
+-   Brand name : Data Guy, Money-saving expert...
+
+-   Start with small steps
+
+\
+
+Ch.17 
+
+Time Management
+
+It is the ability to manage your time effectively, efficiently and productively in your work context. Its not working longer but acquire prerequisite skills so that you can work smarter and have more time for other activities. 
+
+Plan your day carefully.
+
+\
+
+Ch.18 
+
+Curiosity and continuous learning
+
+One of the most important skill is the desire to learn and understand new things. This continual learning indicates that one is ready and willing to embrace change. Curiosity is the desire to learn and curious people ask questions.
+
+-   No such thing or shy of stupid questions
+
+HUMILITY helps to be curious.
+
+Growth mindset is also important to learn new things as it is the psychology of success and helps to be a continuous learner. 
+
+\
+
+Ch 19. Embracing and Celebrating Change
+
+Change is often hard but one cant deny its very powerful.
+
+-   70% change is failure so needs to get better with change.
+
+-   Managing and navigating change 
+
+-   Navigation helps to have good grasp of how will it take place. 
+
+\
+
+LOOKING AFTER YOURSELF
+
+-   Being able to stay on top of your workload and meet deadlines, without working all hours 
+
+-   Spending quality time with your children, partner, friends and other people who matter to you. 
+
+-   Boundaries between work and nonwork life, so you are not thinking work all the time
+
+-   Making effort to eat nourishing foods, exercise regularly, relax and keep up with the hobbies/activities you love.
+
+-   Having a proper and rest ful sleeping schedule
+
+\
+
+ForGet PERFECTION
+
+Five energies
+
+-   Body energy
+
+-   Mind energy
+
+-   People energy
+
+-   Purpose energy
+
+Avoid spending time with "Energy Vampires" : people who leave you feeling drained.
+
+## Talent: How to identify energizers,Creatives, and Winners Around the World
+
+Talent by Tyler Coven and Daniel Gross share their views on identifying talent and the role of talent along with other factors in different fields of life. 
+
+Kludge and Sludge  are the terms used to describe
+
+There is a bureaucratic approach to recruit people and it is mainly based on rigid rules and never in any hurry . 
+
+Special kinds of talent mentioned in this book : people who generate ideas, inspire others by their very presence, leadership and charisma, new methods of execution, start new institutions, gift of improving the world by reimagining the future as a different and better place. 
+
+Shortage of workers and leaders who can make things happen.
+
+Simply being educated only get you sar ; the real returns are to your talent above and beyond your educational level.
+
+\
+
+"Number are great when you can use them, but we can also recognize they are'nt relevant in many cases."
+
+Hike Schellman, "How job interview will transform in the next decade" The Wall Street Journal, 7th Jan 2020
+
+Develop the talent-spotting mindset 
+
+Make talent evaluation as one of your hobbies and observe ethics of judgement.
+
+\
+
+In chapter 2, they point out that to evaluate someone, question should be "What are the open tabs on your browser right now?"
+
+"Personality is revealed during weekends"
+
+\
+
+How did you spend your morning today?
+
+"What's something weird or unusual you did early on your life?"
+
+"What's a story one of your references might tell me when I call them?" 
+
+"What type of book/movie I would recommend for you if I am perfect at Netflix"
+
+\
+
+"How do you feel you are different from the people at your current company?"
+
+"How did you prepare for this interview?"
+
+\
+
+What subreddits, blogs, or online communities do you enjoy?
+
+"What is something esoteric you do?"
+
+\
+
+"What you have achieved that is unusual for your peer group?"
+
+\
+
+"How ambitious you are ?"
+
+\
+
+"What's criteria in your mind for a person to be hired for this position?"
+
+\
+
+"What questions do you have about us?" 
+
+\
+
+Ch3. How to engage people with online
+
+3 things missed in online : social presence, information richness and full sychronicity of back-and-front.
+
+\
+
+Status Relations Online
+
+\
+
+Treat: Online is different than face to face
+
+Less charismatic
+
+\
+\
+
+Ch4. Investors are pretty smart 
+
+Smartness explains 66% of variation in inventor. But for doctors and lawyers its more a family background.
+
+Not only talent but the willingness to work has to sacrifice everything else, to be psychologically strong. 
+
+"There are many factors that need to be in place for a player to reach the world's elite."
+
+Nonlinear importance of intelligence at the very top tiers of achievement.
+
+Total is greater than sum total of its parts. 
+
+\
+
+Ch.5
+
+5 Factors model of personality
+
+-   Extraversioin
+
+-   Agreeableness
+
+-   Conscientious
+
+-   Emotional stability
+
+-   Autonomy
+
+\
+
+15 - 32% variation in observed earnings a lot  or little
+
+\
+
+For Police: conscientiousness, emotional stability, agreeableness
+
+For customer services : Extraversion dominates
+
+Different personality traits for different occupations
+
+Charisma : for CEO but not for CFO
+
+\
+
+STAMINA
+
+\
+
+Ch.6 
+
+1% daily improvement: 35% in a year 
+
+Double after 2 years
+
+16 times after 2 years
+
+\
+
+Significant skill as a talent evaluator is to develop a sense of when people are moving along a compound return curve or not?
+
+Focus on: whether the person is experiencing positive or negative of change for dynamism, intellect, maturity, ambition, stamina, and other relevant features
+
+Whether person is truly committed to  
+
+-   Consistent
+
+-   self-personal -improvement
+
+"What is it you do to practice that is analogous to how a pianist practice scales?"
+
+\
+
+Sturdiness: Getting work done every day with extreme regularity and without streaks of non-achievement.
+
+\
+
+Generativeness: 
+
+People with ideas: see possibilities which you did not
+
+\
+
+Insecure Overachievement
+
+Never feeling comfortable with your output, despite knowing at a deep level that it is good.
+
+\
+
+Pessimistic Perfectionism 
+
+\
+
+Happiness
+
+\
+
+Clutterdness 
+
+\
+
+In next couple of chapters , it is pointed out that how one should recognize talent of different category of people. How gender and other disparities should be looked into. How some people with disabilities are high achievers in some areas.
+
+Talented women are still undervalued and how mentoring young women may serve a hindrance for some of their male colleagues due to various reasons including harassment and coming under invigilation by their spouses.
+
+Recidiviz: a data-driven enterprise to help policy makers.
+
+How to overcome a broader, set of baises when it comes to gender and minorities.
+
+\
+
+"Give a man a fish, and feed him for a meal; teach him how to fish, and feed him for a life"
+
+It is unambiguous,
+
+"Boost the rate of productivity growth in that person's fishing company." Or better yet
+
+"Teach a person how to start a fishing company that will feed millions. Teach a person how to hire talented people to make a better fishing company."
+
+### Talent Wars: The 21st Century (<https://www.brecorder.com/news/40193201>)
+
+3rd decade of the 21st century is being characterized as the 'Talent wars' perhaps eclipsing the conflict for resources, ideology, territory etc. Talent flows to the highest bidder. Talent thrives in economic and competitive environments.
+
+Country only needs talented human resources. Japan and Israel are often quoted as a slogan since long but now supported by data as well. 
+
+Corporate environment is changing so is health, education, social, military and other sectors. Pakistan has lost out mainly due to lack of social and educational support for relevant talelent is missing. WEF has identified some key skills for talent to emerge:
+
+-   Technology use and development
+
+-   Problem solving skills
+
+-   Working with people (leadership and social influence)
+
+-   self-management skills
+
+Pakistan talent development affected adversely by many factors including job market flooded by under equipped job seekers. Job sectors are confused. State sector is a sinkhole even if recruitment is made after a very competitive process. MNCs has so far been focusing only talent in management sector which is now also monitored externally.
+
+Family businesses always allow a limited talent growth as all strategic decisions are made by family.
+
+In sport we have good talent and cricket is often cited as a game where talented player like babar Azam at the current time, and many legends in the past. But what about Hockey, Squash, Wrestling and many other sports.
+
+It is a silicon valley era, people who manage (the techies, the innovators, the mentors) talent dominate all over things.
+
+Pakistan has strong start up culture but due to absence of right mentoring and lack of understanding of the markets functioning in Pakistan, most of these fail before they get know how. When JFK was asked a question, how he is delivering so many good things in a very short time in 1963, he replied "I am a talent manager." 
+
+\
+\

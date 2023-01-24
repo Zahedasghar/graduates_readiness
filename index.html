@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.35">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -53,7 +58,7 @@ code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -66,7 +71,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -100,16 +105,16 @@ div.csl-indent {
 </style>
 
 
-<script src="index_files/libs/clipboard/clipboard.min.js"></script>
-<script src="index_files/libs/quarto-html/quarto.js"></script>
-<script src="index_files/libs/quarto-html/popper.min.js"></script>
-<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="index_files/libs/quarto-html/anchor.min.js"></script>
-<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="Paper1_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Paper1_files/libs/quarto-html/quarto.js"></script>
+<script src="Paper1_files/libs/quarto-html/popper.min.js"></script>
+<script src="Paper1_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Paper1_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Paper1_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Paper1_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Paper1_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Paper1_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Paper1_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
@@ -118,25 +123,25 @@ div.csl-indent {
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
 <div id="quarto-sidebar-toc-left" class="sidebar toc-left">
-  <nav id="TOC" role="doc-toc">
+  <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
   <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
   <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#future-of-jobs-and-skills" id="toc-future-of-jobs-and-skills" class="nav-link" data-scroll-target="#future-of-jobs-and-skills">Future of jobs and skills</a></li>
-  <li><a href="#education-through-exploration" id="toc-education-through-exploration" class="nav-link" data-scroll-target="#education-through-exploration">Education through exploration</a></li>
+  <li><a href="#jobs-skills-and-learning-ecosystem" id="toc-jobs-skills-and-learning-ecosystem" class="nav-link" data-scroll-target="#jobs-skills-and-learning-ecosystem">Jobs, skills and learning ecosystem</a></li>
   <li><a href="#role-of-universities-in-knowledge-economy" id="toc-role-of-universities-in-knowledge-economy" class="nav-link" data-scroll-target="#role-of-universities-in-knowledge-economy">Role of Universities in Knowledge Economy</a></li>
+  <li><a href="#survey-results" id="toc-survey-results" class="nav-link" data-scroll-target="#survey-results">Survey Results</a></li>
+  <li><a href="#correspondence-analysis" id="toc-correspondence-analysis" class="nav-link" data-scroll-target="#correspondence-analysis">Correspondence Analysis</a></li>
   <li><a href="#career-counseling-and-support" id="toc-career-counseling-and-support" class="nav-link" data-scroll-target="#career-counseling-and-support">Career Counseling and Support</a>
   <ul class="collapse">
-  <li><a href="#future-of-universities" id="toc-future-of-universities" class="nav-link" data-scroll-target="#future-of-universities">Future of Universities</a></li>
-  <li><a href="#problem-based-learning-ecosystem" id="toc-problem-based-learning-ecosystem" class="nav-link" data-scroll-target="#problem-based-learning-ecosystem">Problem Based Learning Ecosystem</a></li>
-  </ul></li>
-  <li><a href="#survey-results" id="toc-survey-results" class="nav-link" data-scroll-target="#survey-results">Survey Results</a></li>
-  <li><a href="#career-counseling" id="toc-career-counseling" class="nav-link" data-scroll-target="#career-counseling">Career Counseling</a></li>
   <li><a href="#choice-of-degree-with-career-would-have-been-better-with-counseling" id="toc-choice-of-degree-with-career-would-have-been-better-with-counseling" class="nav-link" data-scroll-target="#choice-of-degree-with-career-would-have-been-better-with-counseling">Choice of degree with career would have been better with counseling</a></li>
+  </ul></li>
   <li><a href="#conlcusion" id="toc-conlcusion" class="nav-link" data-scroll-target="#conlcusion">Conlcusion</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
+  <ul class="collapse">
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix">Appendix</a></li>
+  </ul></li>
   </ul>
 </nav>
 </div>
@@ -155,113 +160,67 @@ div.csl-indent {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
 
 </header>
 
-<section id="abstract" class="level3">
-<h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
-<p>Employers are facing a great chasm between skills currently prevailing and skills employer require. Future of jobs and educational institutions are very uncertain. In a changing world, it is important to assess our graduates readiness for jobs with skills in demand in the market. This study is aimed at how digital revolution, new technologies, artificial intelligence may lead to have major disruption in future jobs and how our graduates are equiped with desired skills. Opinion survey conducted from recently qualified/last year university students and MPhil/PhD students indicate element of worriness, lack of awareness of future uncertainties and relatively more focus on hard work than soft skills. Absence of career couseling and right places to get relevant skills also came out as some major factors for students poor readiness for market besides their poor performance in academics. It has been observed that our graduates are very hard working but lack most of other soft skills which are in high demand in digital era where humans have to work with machines more than before. Our graduates are not exposed to culture of continuous learning.Universities business as usual approach seems a complete disconnect for their readiness to meet the challenges of the 3rd decade of the 21st century.</p>
-<p><strong>Keywords: Future jobs, Future of Universities, Time vs Learning goals</strong></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Employers are facing a great chasm between skills currently prevailing, and skills required. On the other hand, there is an overwhelming youth seeking jobs. In a very challenging environment where skills for jobs of today and tomorrow are changing rapidly, it is important to assess our graduates’ readiness for jobs with skills in demand in the market. This study is explores how familiar our graduates with challenges and major disruptions in jobs market by digital revolution, artificial intelligence , machine learning among many other developments. I also assess graduates’’ readiness for jobs of today and tomorrow also on a certain skill set highlighted by World Economic Forum 2020 Opinion survey conducted from recently graduated/last year university four year degree program students and MPhil/PhD students indicate element of worriness, lack of awareness of future uncertainties and relatively more focus on hard work than soft skills. Absence of career counseling and being in the right discipline are perceived as some of the main reasons for many graduates’ poor academic performance and under-equipment with right set of skills. On the positive side, large number of students reported as hard working and punctual which implies that better mentoring and exposure to our youth may equip them with right skills and they may avail right openings and excel. There is need that universities adapt a new learning eco-system for producing graduates to be successful in the job market. <strong>Keywords: Future jobs, Future of Universities, Time vs Learning goals</strong></p>
 </section>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Both future of tens of millions of burgeoning youth and economic growth of Pakistan are dependent on the type of learning ecosystem we are going to have. Skills inequality is also one among differing degrees of inequalities. Sustainable development requires certain kind of skills that come with a formal education. This is also called in economics jargon: skill-biased technical change. In addition, there are informal know-how : tacit skills which develop when one lives among other skilled workers. There is an increasing skill gap in almost all of the occupations ranging from jobs of car mechanics to digital services providers. There is need for significant effort and deliberate practice to think expansively to know what steps are required for uncertain future work. If we will invest in developing a lhning ecosystem, our burgeoning youth will be equipped with relevant skills to do well in the jobs of tomorrow. The dilemma is that neither educational institutions nor industries/companies are helping to prepare to over skilling gap and bridge skill inequalities. Academia has not been out of its comfort zone and trying to produce research which helps it to reach higher grade instead of focusing on imparting skills which are in high demand. Companies are not investing in training to develop requisite skills. Many of these companies prefer to buy talent instead of building talent with high level of professionalism. This has seriously deteriorated the capacity to cope with challenges posed in the third decade of the 21st century <span class="citation" data-cites="Weise2021">Weise (<a href="#ref-Weise2021" role="doc-biblioref">2021</a>)</span>. Digital revolution and Covid-19 pandemic disruption has exposed an ever increasing skilling gap at the globe, in general and in a developing country like Pakistan, in particular. Simultaneously, this has posed serious challenges to universities to continue their business as usual.@ijaz2019</p>
-<p>Main objective of this study is to highlight that with penetration of artificial intelligence, machine learning, big data and other digital techonologies has posed serious challenges to those whose jobs are performed in a routinely manner. Secondly, how universities can play a role and what will be future perspective of universities after online learning platform has become fully functional. What is future of universities without digital emersion and will physical universities continue to operate after 10 years from now.</p>
-<p>Thirdly, what kind of learning ecosystem is required where learning outcomes will be fixed while making time a variable unlike practice so far in vogue where time is fixed and learning is a variable. Most of Pakistani universities are suffering from serious financial crisis besides serving a very small fraction of students at tertiary education. Data collected on future job challenges summary will help us to understand how our youth is aware of these challenges and what is its understanding about future emerging challenges with possible skill gaps.</p>
+<p>Pakistan has huge youth bulge and economic growth is not sufficient to create opportunities to absorb this burgeoning youth. On the positive side, digital revolution, gig economy and Silicon Valley era have opened jobs which are global in nature. But is our work force ready to benefit from such opportunities which exist both at national and global level? What sort of skilling and reskilling may help our burgeoning young population and labor force to unlock their potential? How and where long-term investment by the institutions in skilling and reskilling of youth and working population should be made? All this demands deep introspection and integrated thinking as finding answers to these questions and devising a mechanism, accordingly, will help our youth to excel besides having healthy economy. Two decades back, occupation specific skills and high academic qualifications were sufficient for graduates to enter into the workforce. However, due to digital revolution, the selection criteria for a sizeable portion of employees in the workforce began to change <span class="citation" data-cites="assessme2015">Griffin and Care (<a href="#ref-assessme2015" role="doc-biblioref">2015</a>)</span> . Firms, companies and entrepreneurs are placing increasing value on graduates being work ready. Employers invest little in workers as they may hire someone for a short term. In gig-economy, one is not looking for hiring of young graduates as their precious future commodity, therefore, they prefer to hire graduates well equipped with skills instead of hiring and investing to make graduate a precious commodity <span class="citation" data-cites="akdere2018">Akdere, Hickman, and Kirchner (<a href="#ref-akdere2018" role="doc-biblioref">2018</a>)</span> .</p>
+<p>Today, employers invest little in workers as they may hire someone for a short term. In gig-economy, one is not looking for hiring of young graduates as their precious future commodity, therefore, they prefer to hire graduates well equipped with skills instead of hiring and investing to make graduate a precious commodity.</p>
+<p>With a broader vision and exposure, they can communicate and work in coordination with others.</p>
+<p>According to various estimates, Pakistan has about 60% population under 30 years of age while almost 36% population is under age 14 (WDI data). Future of our young population and economic growth of Pakistan is dependent on the type of learning ecosystem we are going to have. If one wants to have egalitarian society, one has to work on reducing skill gap between haves and have-nots. Besides income inequality, kkills inequality is also one among differing degrees of inequalities. Despite lot of opportunities for learning skills but so far sustainable development requires certain kind of skills that come with a formal education. This is also called in economics jargon: skill-biased technical change. In addition, there are informal know-how: tacit skills which develop when one lives among other skilled workers. <span class="citation" data-cites="Haque2022">Haque and Nayab (<a href="#ref-Haque2022" role="doc-biblioref">2022</a>)</span> discussed various opportunities which exist for youths in the labor force. My focus is on assessing labour force readiness on skills for jobs of today and tomorrow for tapping these opportunities. According to <span class="citation" data-cites="Haque2022">Haque and Nayab (<a href="#ref-Haque2022" role="doc-biblioref">2022</a>)</span></p>
+<blockquote class="blockquote">
+<p><em>“Are we prepared for this new world? Our education system our governance system all need to be realigned if we are to meet this new world. Many new opportunities will open only if the economy and the policy are both seriously reimagined.”</em></p>
+</blockquote>
+<p>Under rapidly emerging new technologies and digital revolution, there is urgent need to have an assessment of graduates skill set and devise a new learning ecosystem to equip our youth with right skills. This will not only reduce skill inequality but they will find opportunities to excel. Moreover, it will also provide due boost to our economic growth through increase in productivity of various organizations both in the public and private sector. There is an increasing skill gap in almost all the occupations ranging from jobs of a car mechanic to digital services provider. Digital revolution and Covid-19 pandemic disruption has exposed an ever increasing skilling gap at the globe, in general and in a developing country like Pakistan, in particular. Simultaneously, this has posed serious challenges to universities to continue their business as usual.</p>
+<p>There is need for significant effort and deliberate practice to think expansively to know what steps are required for uncertain future work. How to develop a learning ecosystem to train both youngsters and working population with relevant skills to do well in jobs of today and tomorrow. The dilemma is that neither educational institutions nor industries/companies are helping to prepare to overcome skill gap and bridge skill inequalities. Academia has not been out of its comfort zone and trying to produce research which helps it to reach higher grade instead of focusing on imparting skills which are in high demand. Companies are not investing in training to develop requisite skills. Many of gig economy companies prefer to buy talent instead of uilding talent with high level of professionalism. This has seriously deteriorated the capacity to cope with challenges posed in the third decade of the 21st century <span class="citation" data-cites="Weise2020">Weise (<a href="#ref-Weise2020" role="doc-biblioref">2020</a>)</span>.</p>
+<p>An important measure of success of a graduate to equip herself with requisite skills needed in the market. We have examined this through a survey from final year BS students, MPhil and PhD enrolled students. Questionnaire is mainly based on skills set mentioned by World Economic Forum-2020 for future jobs.</p>
+<p>Main objective of this study is to explore how our graduates are perceiving challenges posed by penetration of artificial intelligence, machine learning, big data and other digitaltechnologies and get an idea about graduates’ skills required in the job market. How do they rate their skills required for jobs of today and tomorrow? Secondly, an overview of new learning ecosystem will be discussed and how universities can play a role and what will be future perspective of universities after online learning platform has become fully functional. How to develop a learning ecosystem where learning outcomes are fixed while time is a variable unlike practice so far in vogue where time is fixed, and learning is a variable.</p>
+<p>So research questions may be formulated as follows:</p>
+<p>How graduates’ rate themselves on skills for jobs of today and tomorrow? How can institutions of higher learning enable their students to be on a continuous learning path and provide opportunities to working population for upskilling/reskilling? Or stated slightly in different way: How universities can prepare graduates for ever-fast changing job skills?</p>
+<p>This has significance with respect to mapping of graduates’ skill set for job market, and secondly, to rethink about our higher education for imparting necessary job skills. Data collected on future job challenges summary provides a general picture how aware our youth is about skills they need and challenges they face. What is its understanding about future emerging challenges with possible skill gaps? This is an exploratory analysis and hopefully it will help to initiate more meaningful dialogue on the issue.</p>
+<p>The paper is organized as follows. In the following section, an overview of challenges for skills of jobs of today and tomorrow will be discussed. Next sections discusses rethinking a new learning ecosystem and how will it help to put our youth and working population on a continuous learning path. What kind of roles universities have to perform in such an ecosystem. Data collection, surveys details and exploratory data analysis will be performed in the following section. Finally, I give a summary and conclude the study.</p>
+<p>Digital revolution and Covid-19 pandemic disruption has exposed an ever increasing skilling gap at the globe, in general and in a developing country like Pakistan, in particular. Simultaneously, this has posed serious challenges to universities to continue their business as usual.</p>
+<p>Main objective of this study is to explore how our graduates are perceiving challenges posed by penetration of artificial intelligence, machine learning, big data and other digital technologies? How all this will change jobs which were performed in a routinely manner. Secondly, how universities can play a role and what will be future perspective of universities after online learning platform has become fully functional. Thirdly, need to rethink a learning ecosystem is required where learning outcomes will be fixed while making time a variable unlike practice so far in vogue where time is fixed and learning is a variable.</p>
+<p>The paper is organized as follows. After having this background, future of jobs and skills will be discussed besides highlighting what kind of learning ecosystem will help to put graduates on a continuous learning path. Role of universities will be discussed in the next section. Data collection, surveys details and exploratory data analysis will be performed in the following section. Finally, I conclude the study.</p>
+<p>Data collected on future job challenges summary will help us to understand how our youth is aware of these challenges and what is its understanding about future emerging challenges with possible skill gaps.</p>
 </section>
-<section id="future-of-jobs-and-skills" class="level2">
-<h2 class="anchored" data-anchor-id="future-of-jobs-and-skills">Future of jobs and skills</h2>
-<p>Future of jobs is uncertain due to rapid changes in the past 50 years in all spheres of life all over the globe. According to <span class="citation" data-cites="Coyle2021">Coyle (<a href="#ref-Coyle2021" role="doc-biblioref">2021</a>)</span> <em>Advances in digital technologies, robotics,and AI are coalescing to alter the shape of work, automating routine tasks and requiring jobs for humans to be repackaged as non-routines ones.</em> Besides immense benefits of digital economy, it is clearly helping drive major inequalities of wealth and power and disrupting existing industrial activities and jobs. Due to medical and technological advances, life expectancy has increased from 30 years to 70 years and 80 plus years in the developed world. With increased life expectancy and rapidly evolving technological changes, future of jobs has become uncertain. Many jobs which are available were not there and many more will emerge which are not available now. What kind of skills and education should be imparted is not known. According to Sohail Inayatull, often organization think when some disruption happens or they miss something. Futuristic thinking means that working on problems before some structural change makes one redundant. According to him, often people think about the future, it is out there- Robotic, Space travel, etc. Future is not like an empty space, it is like the past. It is an active aspect of the present and thinking about the future is to as change today.</p>
-</section>
-<section id="education-through-exploration" class="level2">
-<h2 class="anchored" data-anchor-id="education-through-exploration">Education through exploration</h2>
-<p>Portable supercomputers somehow attached to the human being is now a transformative thing. It’s going to be the same as clothing, electricity, refrigerators, and running water, and toilets. According to Global Freshman Academy : core knowledge, advancing ideas allot for that is still there. The future of higher education is uncertain and many potential futures exists. Things are moving faster and faster. What worked 10-20 years ago is not going to work 3 years from now or 5 years from now. We have to be very systemic about sustainability and technology when we think that in order to make a really affordable, accessible, quality learning experience, we have to prepare for growth ahead of time. Continuous learning is important because education is going to change as things are moving faster, new technologies are emerging, skills to use those new technologies are in high demand. Therefore, it is not viable that a 4-year education, once in a lifetime, will serve one for the next 40/50 years. There are 100s of courses available for online learning but its important that universities design their own courses as per local needs. As a result, universities role has also changed. Instead of imparting certain kind of skills, universities have to think in learning ecosystem and have to strive to enable students to learning path so that after completion of degrees, students can learn at their own. There is urgent need to change learning paradigm from enabling students to learn once mode to a continuous habit of learning. Similarly, during the next 5 years, many new jobs will appear. How can an individual or society meet this challenge?</p>
-<p>These must be in English language but while teaching, there is no harm if local language can be used or can be bilingual. Local case studies will help to engage students better.</p>
-<p>Universities need commitment to the promotion of lifelong learning through its academic programs and promotion of good citizenship through community-based learning process. People’s whom jobs will be abandoned don’t have skills for new jobs to be created. It is not feasible for most of such people to get education at campus even if there are such upskilling programs. Majority of the jobs are linked with soft skills for which physical labs are not required. Harvard Business School survey revealed that most businesses leader prefer to invest in technology rather than overhaul complex human capital management <span class="citation" data-cites="PorterandRivkin2014">Porter and Rivkin (<a href="#ref-PorterandRivkin2014" role="doc-biblioref">2014</a>)</span>. Focus is more buying a talent instead of building a talent. Culture of retaining and attracting talent is absent. No steps are taken to accelerate a new and transformative human capital development agenda for the work of future. <strong>“And now that future is our present of work”.</strong></p>
+<section id="jobs-skills-and-learning-ecosystem" class="level2">
+<h2 class="anchored" data-anchor-id="jobs-skills-and-learning-ecosystem">Jobs, skills and learning ecosystem</h2>
+<p>This section provides an overview on skills for jobs of today and tomorrow and discusses the type of learning ecosystem our institutions/universities need to work out. Future of jobs is uncertain due to rapid changes in the past 50 years in all spheres of life across the globe. According to <span class="citation" data-cites="Coyle2021">Coyle (<a href="#ref-Coyle2021" role="doc-biblioref">2021</a>)</span> “<em>Advances in digital technologies, robotics, and AI are coalescing to alter the shape of work, automating routine tasks, and requiring jobs for humans to be repackaged as non-routines ones”.</em> Besides immense benefits of digital economy, it is clearly helping drive major inequalities of wealth and power and disrupting existing industrial activities and jobs. Due to medical and technological advances, life expectancy has increased from 30 years to 70 years in the last two centuries, and it is more than 80 years in the developed world. With increased life expectancy and rapidly evolving technological changes, it has become difficult to be in the labour force without continuous learning. Many jobs which are available were not there and many more will emerge which are not available now.</p>
+<p>Readiness for job market mean having necessary knowledge and skills in demand. These skills for general graduates imply mainly soft skills for post-graduation success What kind of skills and education should be imparted is not known. According to Sohail Inayatullah, often organizations think when some disruption happens, or they miss something. Futuristic thinking means that working on problems before some structural change makes one redundant. According to him, often people think about the future, it is out there- Robotic, Space travel, etc. Future is not like an empty space, it is like the past. It is an active aspect of the present and thinking about the future is to as change today.</p>
+<p>Things are moving faster and faster. What worked 10-20 years ago is not going to work 3 years from now or 5 years from now. According to <span class="citation" data-cites="Brynjolfsson2011RaceAT">Brynjolfsson and McAfee (<a href="#ref-Brynjolfsson2011RaceAT" role="doc-biblioref">2011</a>)</span> ,“Our technologies are reaching ahead and organizations are lagging behind.” In order to bridge this gap, organizations in various countries are getting their jobs performed by skill-equipped people living in any part of the globe. As a result, local average level talent pool is becoming either unemployed or underemployed. We have to be very systemic about sustainability and technology when we think that in order to make a really affordable, accessible, quality learning experience, we have to prepare for growth ahead of time. Portable supercomputers somehow attached to the human being is now a trans-formative thing. It’s going to be the same as clothing, electricity, refrigerators, and running water, and toilets.</p>
+<p>According to Global Freshman Academy : core knowledge, advancing ideas allot for that is still there. With change in nature of jobs and skills required, education is going to change as things are moving faster, new technologies are emerging, skills to use those new technologies are in high demand. There is an urgent need to change learning paradigm from enabling students to learn once mode to a continuous habit of learning. Similarly, during the next 5 years, many new jobs will appear. How can an individual or society meet this challenge? Harvard Business School survey revealed that most businesses leader prefer to invest in technology rather than overhaul complex human capital management <span class="citation" data-cites="PorterandRivkin2014">Porter and Rivkin (<a href="#ref-PorterandRivkin2014" role="doc-biblioref">2014</a>)</span> . Focus by the employers have shifted from building a talent to buying a talent. Culture of retaining and attracting talent has been becoming obsolete in era of gig economy. No steps are taken to accelerate a new and transformative human capital development agenda for the work of future. “And now that future is our present of work”.</p>
+<p>Under such scenario, a 4 year graduate degree, once in a lifetime, will not serve one for the next 40/50 years of worklife. In the last 15 years, an online learning platform has become available which is facilitating 1000s of courses but its important to design courses as per local needs and in local context so that common masses may get maximum benefit from it. This online outcome based learning has changed the role of universities. Instead of imparting certain kind of skills, universities have to think in learning ecosystem and have to strive to enable students to learning path so that after completion of degrees, students can learn at their own. Local case studies will help to engage students better. According to a recent survey by the <a href="https://www.pewresearch.org/fact-tank/2015/02/19/skills-for-success/">Pew Research Center</a>, most Americans view communication as the most important skill for long term success “to get ahead in the world today.”</p>
 </section>
 <section id="role-of-universities-in-knowledge-economy" class="level2">
 <h2 class="anchored" data-anchor-id="role-of-universities-in-knowledge-economy">Role of Universities in Knowledge Economy</h2>
-<p>There is lot of lip service to knowledge economy without realising what it is and what its demands are, and how can a nation prepares itself for the same. Due to increased life expectancy over time, it is hard to imagine a straight line from education to work and, finally, retirement. 2 or 4 or even 6 years college front-loaded at the beginning of 80 to 100 years life seems inadequate. There is a need for a paradigm shift from default mental model Learn, Earn, Rest to Learn, Earn, Learn, Earn,… for 10 to 12 jobs changes in one’s life time. Learning and work have become inseparable, and it is knowledge economy or continuous learning. There is complete disconnect what is supplied and what is the demand in the market. I restrict myself here to role of higher education in meeting this challenge of knowledge economy.</p>
-<p>Higher education system is stuck in first transition from young adulthood to work force. There is debate whether universities should produce graduates with skills matching with jobs or graduates should follow a broader general skill. There are strong arguments on both sides. But research shows that graduates who start their career path at lower level than their qualification are highly likely to serve at lower level except few disciplines. Secondly, surveys at entry level indicate that majority of them join college for getting skills to get job in the market. Thirdly, 50 to 70 years work life demands that job skills are must for a graduate. It is not true to think college education against workforce training. As economist Anthony P. Carnevale writes: “The inescapable reality is that ours is a society based on work. Increasing the economic relevance of education should, if done properly,extend the ability of educators to empower Americans to work in the world, rather than retreat from it.” Supply-Demand Mismatch has become a dominant issue. There is a need to have symbiotic relationship among learners, learning providers and employers <span class="citation" data-cites="AmericanAAS2018">Arts and Sciences (<a href="#ref-AmericanAAS2018" role="doc-biblioref">2017</a>)</span>. According to LearnLaunch estimates for 2015-2018, more than 240 new companies secured funding to address supply-demand mismatch issues, workplace competencies, technical skills, and formal and informal training making up a market place of workforce in excess of billion <span class="citation" data-cites="Colin2018">Colin Magee and Astashkina (<a href="#ref-Colin2018" role="doc-biblioref">2018</a>)</span>.</p>
-</section>
-<section id="career-counseling-and-support" class="level2">
-<h2 class="anchored" data-anchor-id="career-counseling-and-support">Career Counseling and Support</h2>
-<p>There are lot of online learning opportunities but many often ask that they dont have access to trustworthy sources from where they can get an idea from which source to learn. Unlike consumer common products used in Pakistan, there are not much reviews about learning platforms. Some complains that online learning training are either below quality or fake and charge hefty amounts to participants. Workers often ask how to make sense of their options but there is not sufficient information available on the matter. Potential consumers of online education encounter a black box. A survey from university graduates mentions that they are performing poor in studies because no right counseling was provided to them when they joined BS-graduate at college level. Similarly, gaps exists between learners, learning providers and employers Neither side understands clearly what the other sides need. Adult learners need guidance and are in need of mentors. Most of them are unable to move on a learning curve at their own, therefore, they need guidance. With human help, adult learners can make their online learning more effective. Learning and upskilling alone are not enough. Codding apprenticeship, legal services, food stamps, health care, employment assistance It is becoming difficult for youth to spare mental energies to creativity due to increasing pressure of earning livelihood. Mental energies not free to put but survival. Despite a number of free learning opportunities, how can they fit in extra learning along with day-to-day struggle to survive? Guidelines to reskilling/upskilling are not available, and it is not possible for workers to improve their skills and once they get out of job, they hardly find any working opportunity afterward due to change in required skills. Networking and social capital are just like assets as one can utilize these to perform many assignments efficiently. Office staff needs continuous support and their managers need training as well. But there is a dominant culture of management in Pakistan, so management and other leaders often say “Oh, I have managed people before, I dont need training.” Continuous support from education leaders/managers have significant long-term benefits for new workers as they prepare for success in the new economy.</p>
-<section id="future-of-universities" class="level3">
-<h3 class="anchored" data-anchor-id="future-of-universities">Future of Universities</h3>
-<p>According to Transformation 2050 book, due to demographic transitions, digitalization, globalization and recent pandemic covid-19 disruption, higher education across the globe is in process of massive changes. Unfortunately, Pakistani university culture is like a factory model or the forced-feed one which has reached its limits but unfortunately our higher education leaders don’t know how to move forward. Leadership should not have vision and courage to lead to future but also make this process participative and inclusive <span class="citation" data-cites="Sohail2018">Inayatullah and Ithnin (<a href="#ref-Sohail2018" role="doc-biblioref">2018</a>)</span>. Universities are at the most trying to build themselves to attain status as opposed to broad set of institutional outcomes having utility for the society.</p>
-<p>To get their improved ranking, they are rejecting more students than accepting. How universities can transform to have inclusive learning and using technological changes can provide education to all at a very low cost. This changing role of universities will create a demographic dividend for Pakistan which may play an active role for economic prosperity besides reducing skill inequalities. Changing university education by having full time in person to digital emersion for online students, part time learning for workers and courses for people of every age will help to have opportunities to excel now and in future. This study contributes to reimagining university education to tap opportunities created by covid-19 disruption and enabling graduates to learn the process of getting skills. Future jobs skills are hardly known to anyone. Traditional university education system is misaligned with current job market and simply adding technological learning management system on it will not resolve the issue.There is a huge gap to bring educational system at par with emerging needs of the hour. Simple singular narrative of making universities at par with the requirements of the 3rd decade of the 21st century will not suffice going forward.</p>
-<p>To face complexification of learning needs, there is need for re-thinking the entire learning paradigm. There is need to switch from one time learning mode for a given number of years to life long learning mode. Jobs will now not be secured for life time, therefore, there is need to provide part time opportunities. Nevertheless, these challenges also offer new opportunities which will lead to convergence for those who will get maximum benefits fo the use of digital tools effectively. One has to keep on learning for a long period of one’s life. Secondly in developing countries, a very small percent of population makes to tertiary education. There is an urgent need for universities to introduce part-time studentship opportunities to enable graduates to upgrade their skills and those willing to earn part-time degree may get a chance. Therefore, universities need to offer online learning programs to retrain existing employers and for upskilling of their jobs. Academic institutions inertia is a real but its not alone academic institutions, but onus is also on companies just as much as it is on higher education to meet the challenges of changing nature of jobs. The reskilling crisis is emerging very rapidly and the dilemma is Pakistan is niether ready to realize this crisis nor any preparation in near future to bridge this ever increasing reskilling crisis. Pakistani academia, companies and governments have long been trained in a way where issues can be resolved with more hard-work with mediocre skills rather increasing productivity with better skills and smart work instead of hard work. Survey results Complexity of the 21st century challenges required new skills and CONTINUOUS LEARNING approach. Now, neither universities nor companies are thinking hard to devise measures to deal with this complexification.</p>
-<p>Use of educational technology alone in universities will provide market-oriented skills is largely inaccurate assumption. Our traditional educational system which is misaligned to the needs of the students and society will deliver no good by just adding any Learning Modular System. Though it is claimed that skills are given more weightage than degrees but still even in country like United States a college degree signal sends a strong signal and current working learners are not preferred over those who carry degrees. Instead of focusing on degrees, it is important to have precise and relevant education tailored to the needs of society, employers and learners. Right skills at the right time in the right pathways are needed.</p>
-<p>Can one think where universities offer part time degrees in Pakistan so that continuous working learners are not left behind just because of a degree signal. For this one has to redevise course structure as there are a number of courses like Pakistan Study, English, Islamic Study and many other general courses required to complete a degree. Such courses are not required for those who are in jobs and need degrees relevant to their skills to move higher ladder in their career. But our universities dont have any program so these can serve those un-served ones. Signaling power of degree is so strong that there is no equal in job market to it. Dr.&nbsp;Michael Crow “Universities should be great contributors to society rather universities to be great contributors to themselves. Each university is trying to be as good as Harvard, Berkeley and Yale. Many may achieve the goal and what else is to achieve if its done.</p>
-<p>Building institutions around the sole attainment of status as opposed to a broader set of institutional outcomes, which would include - status on the list - achievement on the list but also achieve somewhat impact. Emergence of new kind of institutions is needed with having digital immersion. We are all about creating, discovering, analyzing, synthesizing, storing and transferring knowledge. That’s what we do between and among generations.</p>
-</section>
-<section id="problem-based-learning-ecosystem" class="level3">
-<h3 class="anchored" data-anchor-id="problem-based-learning-ecosystem">Problem Based Learning Ecosystem</h3>
+<p>Universities need commitment to the promotion of lifelong learning through its academic programs and promotion of good citizenship through community-based learning process. People’s whom jobs will be abandoned don’t have skills for new jobs to be created. It is not feasible for most of such people to get education at campus even if there are such upskilling programs. Majority of the jobs are linked with soft skills for which physical labs are not required.</p>
+<p>There is lot of lip service to knowledge economy without realizing what it is and what its demands are, and how can a nation prepare itself for the same. Due to increased life expectancy over time, it is hard to imagine a straight line from education to work and, finally, retirement. 2 or 4 or even 6 years college front-loaded at the beginning of 80 to 100 years life seems inadequate. There is a need for a paradigm shift from default mental model Learn, Earn, Rest to Learn, Earn, Learn, Earn, for 10 to 12 jobs changes in one’s life time. Learning and work have become inseparable, and it is knowledge economy or continuous learning. There is complete disconnect what is supplied and what is the demand in the market.</p>
+<p>Higher education system is stuck in first transition from young adulthood to work force. There is debate whether universities should produce graduates with skills matching with jobs or graduates should follow a broader general skill. There are strong arguments on both sides. But research shows that graduates who start their career path at lower level than their qualification are highly likely to serve at lower level except few disciplines. Secondly, surveys at entry level indicate that majority of them join college for getting skills to get job in the market. Thirdly, 50 to 70 years work life demands that job skills are must for a graduate. It is not true to think college education against workforce training. As economist Anthony P. Carnevale writes: “The inescapable reality is that ours is a society based on work. Increasing the economic relevance of education should, if done properly,extend the ability of educators to empower Americans to work in the world, rather than retreat from it.” Supply-Demand mismatch has become a dominant issue. There is a need to have symbiotic relationship among learners, learning providers and employers <span class="citation" data-cites="AmericanAAS2018">Arts and Sciences (<a href="#ref-AmericanAAS2018" role="doc-biblioref">2017</a>)</span> .</p>
+<p>According to LearnLaunch estimates for 2015-2018, more than 240 new companies secured funding to address supply-demand mismatch issues, workplace competencies, technical skills, and formal and informal training making up a market place of workforce in excess of billion <span class="citation" data-cites="Colin2018">Colin Magee and Astashkina (<a href="#ref-Colin2018" role="doc-biblioref">2018</a>)</span> . According to Transformation 2050 book <span class="citation" data-cites="Sohail2018">Inayatullah and Ithnin (<a href="#ref-Sohail2018" role="doc-biblioref">2018</a>)</span> , due to demographic transitions, digitalization, globalization and recent pandemic covid-19 disruption, higher education across the globe is in process of massive changes. Unfortunately, Pakistani university culture is like a factory model or the forced-feed one which has reached its limits but unfortunately our higher education leaders don’t know how to move forward. Leadership should not have vision and courage to lead to future but also make this process participative and inclusive . Universities are at the most trying to build themselves to attain status as opposed to broad set of institutional outcomes having utility for the society.</p>
+<p>To face complexification of learning needs, there is need for re-thinking the entire learning paradigm. There is need to switch from one time learning mode for a given number of years to life long learning mode. Jobs will now not be secured for life time, therefore, there is need to provide part time opportunities. Nevertheless, these challenges also offer new opportunities which will lead to convergence for those who will get maximum benefits for the use of digital tools effectively. One has to keep on learning for a long period of one’s life. Secondly in developing countries, a very small percent of population makes to tertiary education. There is an urgent need for universities to introduce part-time studentship opportunities to enable graduates to upgrade their skills and those willing to earn part-time degree may get a chance. Therefore, universities need to offer online learning programs to retrain existing employers and for upskilling of their jobs.</p>
+<p>Academic institutions inertia is a real but its not alone academic institutions, but onus is also on companies just as much as it is on higher education to meet the challenges of changing nature of jobs. The reskilling crisis is emerging very rapidly and the dilemma is we are neither ready to realize this crisis nor any preparation in near future to bridge this ever increasing reskilling crisis. Pakistani academia, companies and governments have long been trained in a way where issues can be resolved with more hard-work with mediocre skills rather increasing productivity with better skills and smart work instead of hard work. Survey results Complexity of the 21st century challenges required new skills and CONTINUOUS LEARNING approach. Now, neither universities nor companies are thinking hard to devise measures to deal with this complexification.</p>
+<p>Use of educational technology alone in universities will provide market-oriented skills is largely inaccurate assumption. Our traditional educational system which is misaligned to the needs of the students and society will deliver no good by just adding any Learning Modular System Degrees transmit a strong signal but besides focusing on degrees, it is important to have precise and relevant education tailored to the needs of society, employers and learners. Right skills at the right time in the right pathways are needed.</p>
+<p>Best practices borrowed from advanced world will hardly deliver as its not a policy document which matters but also capacity from top to bottom level matters. Universities of 21st century with an administrative set up on the 20th century model will not be helpful in achieving policies prescribed by the best practices policies. TTS system in Pakistani universities is a case in point.</p>
+<p>Can one think where universities offer part time degrees in Pakistan so that continuous working learners are not left behind just because of a degree signal. For this one has to redevise course structure as there are a number of courses like Pakistan Study, English, Islamic Study and many other general courses required to complete a degree. Such courses are not required for those who are in jobs and need degrees relevant to their skills to move higher ladder in their career. But our universities dont have any program so these can serve those un-served ones. Signaling power of degree is so strong that there is no equal in job market to it. Accoding to <span class="citation" data-cites="CrowDabars2020">Crow and Dabars (<a href="#ref-CrowDabars2020" role="doc-biblioref">2020</a>)</span> ( authors of The Fifth Wave: The Evolution of American Higher Education) “Universities should be great contributors to society rather universities to be great contributors to themselves”. Each university is trying to be as good as Harvard, Berkeley and Yale. Many may achieve the goal and what else is to achieve if its done.</p>
+<p>So far all efforts by each of the university in Pakistan has been to focus on inclusion of its name in ranking racket business and to get attention of hi-ups. Hardly any university has its goal to work on any national issue. Building institutions around the sole attainment of status as opposed to a broader set of institutional outcomes, which would include - status on the list - achievement on the list but also achieve somewhat impact. Emergence of new kind of institutions is needed with having digital immersion. We are all about creating, discovering, analyzing, synthesizing, storing, and transferring knowledge. That’s what we do between and among generations.</p>
 <p>21st century 3rd decade learning pathways must be different and move away from memorization and standardized testing to problem-based learning. Hands-on experimentation is required where learners engage in productive struggle, persist and learn just in time-specific disciplinary concepts. Secondly, there is not a single problem in real life which can be solved in isolation. Solution to problem requires multidisciplinary approaches but unfortunately our university system is providing degrees in complete isolation to each other and even within same faculty, departments/schools are working in silos. Use talent development as a blueprint for varying the problems and building the solutions that are happening in our community everyday. There is need that policymakers, workforce, learning providers and employers understand skill gaps to work out how to close those gaps through design and development of well-established and more precise learning pathways.</p>
-</section>
 </section>
 <section id="survey-results" class="level2">
 <h2 class="anchored" data-anchor-id="survey-results">Survey Results</h2>
-<p>We have conducted two surveys. In one of the survey, main question was how career counseling contribute to students’ academic performance and in their career decision making. In second survey, questions regarding future job challenges and soft skills required to meet those challenges were asked mainly from final year graduate and research postgraduate students. Additionally, some results from a survey conducted from 14000 free lancing individuals are reported. These individuals are working as free lancers both in national and international market after getting digital skills from Digiskills, Ignite, Ministry of Finance, Islamabad. Results of first two surveys are not completely random and may suffer from high response bias. Therefore, confirmatory data analysis is not performed, and results are mainly based on exploratory data analysis.</p>
+<p>Exploring all what has been said before requires huge amount of work. To assess graduates’ response for future job skills and career counseling importance, I have conducted two surveys mainly from final year graduate students and MPhil/PhD scholars. In the first survey, questions regarding future job challenges and soft skills required to meet those challenges were asked mainly from final year graduate and research postgraduate students. These questions on skills required for future jobs are highlighted by <a href="https://www.weforum.org/events/the-jobs-reset-summit-2020">World Economic Forum (2020)</a>. Since information is collected through online survey, so there maybe response bias as well as optimism bias of respondents about their self-perceived skills strength. Second survey is about role of career counseling in which students are asked about right mentoring and counseling. Skill-set mainly includes communication skills, problem solving skills, networking/working in a team among many other skills. There are about 256 students who participated in this survey. How skills can play a role even if one has not a degree I have reported a table based from a survey conducted from 14000 free lancing individuals (though this data are not open for all to further analyze) are reported. These individuals are working as free lancers both in national and international market after getting digital skills from Digiskills, Ignite, Ministry of Finance, Islamabad.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>✔ ggplot2 3.3.6     ✔ purrr   0.3.4
-✔ tibble  3.1.7     ✔ dplyr   1.0.9
-✔ tidyr   1.2.0     ✔ stringr 1.4.0
-✔ readr   2.1.2     ✔ forcats 0.5.1</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gridExtra)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>
-Attaching package: 'gridExtra'</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following object is masked from 'package:dplyr':
-
-    combine</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(googlesheets4)</span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Career_survey &lt;- read_csv("career_survey.csv")</span></span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>Career_survey<span class="ot">&lt;-</span><span class="fu">read_sheet</span>(<span class="st">'https://docs.google.com/spreadsheets/d/1Qyw7TUNExdlsLaV55PH9SKjrPw5b6hng0oRxsVgIL9Q/edit?resourcekey#gid=607567742'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>! Using an auto-discovered, cached token.</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>  To suppress this message, modify your code or options to clearly consent to
-  the use of a cached token.</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>  See gargle's "Non-interactive auth" vignette for more details:</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>  &lt;https://gargle.r-lib.org/articles/non-interactive-auth.html&gt;</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>ℹ The googlesheets4 package is using a cached token for 'g.zahid@gmail.com'.</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>✔ Reading from "Untitled form (Responses)".</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>✔ Range 'Form responses 1'.</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(Career_survey)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Rows: 203
+<pre><code>Rows: 291
 Columns: 33
 $ Timestamp                                                                                                                                                      &lt;dttm&gt; …
 $ `Name (Optional)`                                                                                                                                              &lt;chr&gt; …
@@ -297,28 +256,6 @@ $ `Anything you want to say about future career challenges and opportunities or 
 $ `Are you familiar how Artificial Intelligence, Robots, Machine Learning and other new technologies are a challenge to your future job?`                        &lt;chr&gt; …
 $ `Name of the University`                                                                                                                                       &lt;chr&gt; …</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>career<span class="ot">&lt;-</span>Career_survey <span class="sc">%&gt;%</span> <span class="fu">rename</span>(<span class="at">time=</span>Timestamp,<span class="at">name=</span><span class="st">`</span><span class="at">Name (Optional)</span><span class="st">`</span>,<span class="at">email=</span><span class="st">`</span><span class="at">Email (Optional)</span><span class="st">`</span>,<span class="at">program=</span><span class="st">`</span><span class="at">Program of study</span><span class="st">`</span>, <span class="at">subject=</span> <span class="st">`</span><span class="at">Name of the degree Program (e.g BBA/BS Sociology/...)</span><span class="st">`</span>, <span class="at">career_entry=</span><span class="st">`</span><span class="at">How do you feel about career planning?</span><span class="st">`</span>, <span class="at">tech_challenges=</span><span class="st">`</span><span class="at">Do you think that Artificial Intelligence, Machine Learning, Robotics and Other automation are serious threats to your job prospects in 5 to 10 years times.</span><span class="st">`</span>, <span class="at">notfamily_career=</span><span class="st">`</span><span class="at">Have you learned about different careers other than those of your family careers?</span><span class="st">`</span>, <span class="at">job_info=</span><span class="st">`</span><span class="at">Do you know how to find information about jobs and careers?</span><span class="st">`</span></span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>, <span class="at">future_job=</span><span class="st">`</span><span class="at">Have you thought about how jobs and careers may change in the future?</span><span class="st">`</span>,<span class="at">job_options=</span><span class="st">`</span><span class="at">Do you understand the options you have for education and work after you leave university?</span><span class="st">`</span>,<span class="at">cv_creation=</span><span class="st">`</span><span class="at">Do you feel you can create a CV?</span><span class="st">`</span>,<span class="at">skill_strengths=</span><span class="st">`</span><span class="at">Can you list your strengths related to the skills you possess?</span><span class="st">`</span>,<span class="at">future_plan=</span> <span class="st">`</span><span class="at">Do you have ideas about what you might do in the future?</span><span class="st">`</span>,<span class="at">skill_job_match=</span><span class="st">`</span><span class="at">Do you have ideas about which careers match your interests and skills?</span><span class="st">`</span></span>
-<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>,<span class="at">career_interest=</span><span class="st">`</span><span class="at">Do you know yet what career areas you are interested in?</span><span class="st">`</span>, <span class="at">group_talk=</span><span class="st">`</span><span class="at">Are you comfortable speaking in front of a group of people?</span><span class="st">`</span>,<span class="at">team_skills=</span> <span class="st">`</span><span class="at">Over the last year, have you developed listening, teamwork and problem solving skills?</span><span class="st">`</span>,<span class="at">comm_skills=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Communcation skill]</span><span class="st">`</span>,<span class="at">writing_skills=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Communicating in writing]</span><span class="st">`</span>,<span class="at">working_data_numbers=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Working with data and numbers]</span><span class="st">`</span>,<span class="at">working_with_people=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Working with people]</span><span class="st">`</span>, <span class="at">dressing_properly=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Dressing appropriately for a workplace]</span><span class="st">`</span>,<span class="at">punctuality=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Being on time for work or meetings]</span><span class="st">`</span>, <span class="at">attendance=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Having good attendance]</span><span class="st">`</span>,<span class="at">workplace_safety=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Understanding workplace safety rules]</span><span class="st">`</span>,<span class="at">motivation_and_initiative=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Being motivated and taking initiative]</span><span class="st">`</span>,<span class="at">other_comments=</span><span class="st">`</span><span class="at">Anything you want to say about future career challenges and opportunities or related feedback</span><span class="st">`</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>career<span class="ot">&lt;-</span>career <span class="sc">%&gt;%</span> <span class="fu">rename</span>(</span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">cv_creation=</span><span class="st">`</span><span class="at">Do you feel you can create a CV?</span><span class="st">`</span>,<span class="at">skill_strengths=</span><span class="st">`</span><span class="at">Can you list your strengths related to the skills you possess?</span><span class="st">`</span>,<span class="at">future_plan=</span> <span class="st">`</span><span class="at">Do you have ideas about what you might do in the future?</span><span class="st">`</span>,<span class="at">skill_job_match=</span><span class="st">`</span><span class="at">Do you have ideas about which careers match your interests and skills?</span><span class="st">`</span></span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>,<span class="at">career_interest=</span><span class="st">`</span><span class="at">Do you know yet what career areas you are interested in?</span><span class="st">`</span>, <span class="at">group_talk=</span><span class="st">`</span><span class="at">Are you comfortable speaking in front of a group of people?</span><span class="st">`</span>,<span class="at">team_skills=</span> <span class="st">`</span><span class="at">Over the last year, have you developed listening, teamwork and problem solving skills?</span><span class="st">`</span>,<span class="at">comm_skills=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Communcation skill]</span><span class="st">`</span>,<span class="at">writing_skills=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Communicating in writing]</span><span class="st">`</span>,<span class="at">working_data_numbers=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Working with data and numbers]</span><span class="st">`</span>,<span class="at">working_with_people=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Working with people]</span><span class="st">`</span>, <span class="at">dressing_properly=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Dressing appropriately for a workplace]</span><span class="st">`</span>,<span class="at">punctuality=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Being on time for work or meetings]</span><span class="st">`</span>, <span class="at">attendance=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Having good attendance]</span><span class="st">`</span>,<span class="at">workplace_safety=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Understanding workplace safety rules]</span><span class="st">`</span>,<span class="at">motivation_and_initiative=</span><span class="st">`</span><span class="at">How would you rate your strength in the following career skills? [Being motivated and taking initiative]</span><span class="st">`</span>,<span class="at">other_comments=</span><span class="st">`</span><span class="at">Anything you want to say about future career challenges and opportunities or related feedback</span><span class="st">`</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co">#career1&lt;-career %&gt;% mutate_at(c("tech_challenges","notfamily_career","job_info","future_job","job_options","skill_strengths","cv_creation","group_talk","future_plan","skill_job_match","team_skills"), funs(recode(.,`No, not yet`=1, `No , not yet`=1, `Probably, I'm not sure`=2, `Yes to some extent`=3,`Yes to a great extent`=4,.default = NaN)))</span></span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="co">#career %&gt;% select(comm_skills) %&gt;% group_by(comm_skills) %&gt;% </span></span>
-<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="co">#  summarise(n=n()) %&gt;% </span></span>
-<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="co">#  mutate(freq = n*100 / sum(n))</span></span>
-<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stringr)</span>
-<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>c1<span class="ot">&lt;-</span>career <span class="sc">%&gt;%</span> <span class="fu">select</span>(comm_skills) <span class="sc">%&gt;%</span> </span>
-<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x=</span>comm_skills))<span class="sc">+</span><span class="fu">geom_bar</span>()<span class="sc">+</span><span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"How would you rate your strength </span><span class="sc">\n</span><span class="st"> in the following career skills?"</span>)<span class="sc">+</span><span class="fu">theme_minimal</span>()<span class="sc">+</span><span class="fu">coord_flip</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-
 </div>
 <div class="cell">
 
@@ -328,28 +265,1977 @@ $ `Name of the University`                                                      
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+
+<div id="qyentncyrw" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+:where(#qyentncyrw) .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+:where(#qyentncyrw) .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#qyentncyrw) .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+:where(#qyentncyrw) .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+:where(#qyentncyrw) .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+:where(#qyentncyrw) .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#qyentncyrw) .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#qyentncyrw) .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+:where(#qyentncyrw) .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+:where(#qyentncyrw) .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+:where(#qyentncyrw) .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+:where(#qyentncyrw) .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+:where(#qyentncyrw) .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+:where(#qyentncyrw) .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+:where(#qyentncyrw) .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+:where(#qyentncyrw) .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+:where(#qyentncyrw) .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+:where(#qyentncyrw) .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#qyentncyrw) .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+:where(#qyentncyrw) .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+:where(#qyentncyrw) .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#qyentncyrw) .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+:where(#qyentncyrw) .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+:where(#qyentncyrw) .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#qyentncyrw) .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#qyentncyrw) .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+:where(#qyentncyrw) .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+:where(#qyentncyrw) .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#qyentncyrw) .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#qyentncyrw) .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#qyentncyrw) .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#qyentncyrw) .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#qyentncyrw) .gt_left {
+  text-align: left;
+}
+
+:where(#qyentncyrw) .gt_center {
+  text-align: center;
+}
+
+:where(#qyentncyrw) .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+:where(#qyentncyrw) .gt_font_normal {
+  font-weight: normal;
+}
+
+:where(#qyentncyrw) .gt_font_bold {
+  font-weight: bold;
+}
+
+:where(#qyentncyrw) .gt_font_italic {
+  font-style: italic;
+}
+
+:where(#qyentncyrw) .gt_super {
+  font-size: 65%;
+}
+
+:where(#qyentncyrw) .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 75%;
+  vertical-align: 0.4em;
+}
+
+:where(#qyentncyrw) .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+:where(#qyentncyrw) .gt_indent_1 {
+  text-indent: 5px;
+}
+
+:where(#qyentncyrw) .gt_indent_2 {
+  text-indent: 10px;
+}
+
+:where(#qyentncyrw) .gt_indent_3 {
+  text-indent: 15px;
+}
+
+:where(#qyentncyrw) .gt_indent_4 {
+  text-indent: 20px;
+}
+
+:where(#qyentncyrw) .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table">
+  <caption><strong>Table 1. Program of study</strong></caption>
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="<strong>Characteristic</strong>"><strong>Characteristic</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="<strong>N = 291</strong><sup class=&quot;gt_footnote_marks&quot;>1</sup>"><strong>N = 291</strong><sup class="gt_footnote_marks">1</sup></th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">program</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="text-align: left; text-indent: 10px;">BS</td>
+<td headers="stat_0" class="gt_row gt_center">107 (38%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="text-align: left; text-indent: 10px;">MPhil</td>
+<td headers="stat_0" class="gt_row gt_center">125 (44%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="text-align: left; text-indent: 10px;">Other</td>
+<td headers="stat_0" class="gt_row gt_center">20 (7.0%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="text-align: left; text-indent: 10px;">PhD</td>
+<td headers="stat_0" class="gt_row gt_center">32 (11%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="text-align: left; text-indent: 10px;">Unknown</td>
+<td headers="stat_0" class="gt_row gt_center">7</td></tr>
+  </tbody>
+  
+  <tfoot class="gt_footnotes">
+    <tr>
+      <td class="gt_footnote" colspan="2"><sup class="gt_footnote_marks">1</sup> n (%)</td>
+    </tr>
+  </tfoot>
+</table>
 </div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>AI_ML<span class="ot">&lt;-</span><span class="fu">read_excel</span>(<span class="st">"paper_tables.xlsx"</span>,   <span class="at">sheet =</span> <span class="st">"AIML"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>AI_ML<span class="sc">%&gt;%</span> gt<span class="sc">::</span><span class="fu">gt</span>() <span class="sc">%&gt;%</span> </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gt_theme_538</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gt_highlight_rows</span>(<span class="at">rows =</span> <span class="dv">3</span>, <span class="at">font_weight =</span> <span class="st">"normal"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_header</span>(<span class="at">title=</span><span class="st">"Table 2: Awareness about AI, ML, Robotics and other disruption in future jobs"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-6-2.png" class="img-fluid" width="672"></p>
+
+<div id="xdupwimlah" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  font-family: Chivo, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+:where(#xdupwimlah) .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: none;
+  border-top-width: 3px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+:where(#xdupwimlah) .gt_heading {
+  background-color: #FFFFFF;
+  text-align: left;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#xdupwimlah) .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+:where(#xdupwimlah) .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+:where(#xdupwimlah) .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+:where(#xdupwimlah) .gt_bottom_border {
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#xdupwimlah) .gt_col_headings {
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #000000;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#xdupwimlah) .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 80%;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+:where(#xdupwimlah) .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 80%;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+:where(#xdupwimlah) .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+:where(#xdupwimlah) .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+:where(#xdupwimlah) .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #000000;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+:where(#xdupwimlah) .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 80%;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #000000;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+:where(#xdupwimlah) .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 80%;
+  font-weight: bolder;
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #000000;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #FFFFFF;
+  vertical-align: middle;
+}
+
+:where(#xdupwimlah) .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+:where(#xdupwimlah) .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+:where(#xdupwimlah) .gt_row {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+:where(#xdupwimlah) .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 80%;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border-right-style: solid;
+  border-right-width: 0px;
+  border-right-color: #FFFFFF;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#xdupwimlah) .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+:where(#xdupwimlah) .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+:where(#xdupwimlah) .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#xdupwimlah) .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+:where(#xdupwimlah) .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+:where(#xdupwimlah) .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#xdupwimlah) .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#xdupwimlah) .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+:where(#xdupwimlah) .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+:where(#xdupwimlah) .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#xdupwimlah) .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#xdupwimlah) .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#xdupwimlah) .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#xdupwimlah) .gt_sourcenote {
+  font-size: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#xdupwimlah) .gt_left {
+  text-align: left;
+}
+
+:where(#xdupwimlah) .gt_center {
+  text-align: center;
+}
+
+:where(#xdupwimlah) .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+:where(#xdupwimlah) .gt_font_normal {
+  font-weight: normal;
+}
+
+:where(#xdupwimlah) .gt_font_bold {
+  font-weight: bold;
+}
+
+:where(#xdupwimlah) .gt_font_italic {
+  font-style: italic;
+}
+
+:where(#xdupwimlah) .gt_super {
+  font-size: 65%;
+}
+
+:where(#xdupwimlah) .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 75%;
+  vertical-align: 0.4em;
+}
+
+:where(#xdupwimlah) .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+:where(#xdupwimlah) .gt_indent_1 {
+  text-indent: 5px;
+}
+
+:where(#xdupwimlah) .gt_indent_2 {
+  text-indent: 10px;
+}
+
+:where(#xdupwimlah) .gt_indent_3 {
+  text-indent: 15px;
+}
+
+:where(#xdupwimlah) .gt_indent_4 {
+  text-indent: 20px;
+}
+
+:where(#xdupwimlah) .gt_indent_5 {
+  text-indent: 25px;
+}
+
+tbody tr:last-child {
+  border-bottom: 2px solid #ffffff00;
+}
+</style>
+<table class="gt_table">
+  <thead class="gt_header">
+    <tr>
+      <td colspan="3" class="gt_heading gt_title gt_font_normal gt_bottom_border" style="">Table 2: Awareness about AI, ML, Robotics and other disruption in future jobs</td>
+    </tr>
+    
+  </thead>
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="border-top-width: 0px; border-top-style: solid; border-top-color: black;" scope="col" id="Response">Response</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" style="border-top-width: 0px; border-top-style: solid; border-top-color: black;" scope="col" id="n">n</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" style="border-top-width: 0px; border-top-style: solid; border-top-color: black;" scope="col" id="%age">%age</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="Response" class="gt_row gt_left">No , not yet</td>
+<td headers="n" class="gt_row gt_right">19</td>
+<td headers="%age" class="gt_row gt_right">6.9</td></tr>
+    <tr><td headers="Response" class="gt_row gt_left">Probably, I'm not sure</td>
+<td headers="n" class="gt_row gt_right">30</td>
+<td headers="%age" class="gt_row gt_right">10.9</td></tr>
+    <tr><td headers="Response" class="gt_row gt_left" style="background-color: rgba(128,188,216,0.8); font-weight: normal;">Yes to a great extent</td>
+<td headers="n" class="gt_row gt_right" style="background-color: rgba(128,188,216,0.8); font-weight: normal;">21</td>
+<td headers="%age" class="gt_row gt_right" style="background-color: rgba(128,188,216,0.8); font-weight: normal;">7.7</td></tr>
+    <tr><td headers="Response" class="gt_row gt_left">Yes to some extent</td>
+<td headers="n" class="gt_row gt_right">69</td>
+<td headers="%age" class="gt_row gt_right">25.2</td></tr>
+    <tr><td headers="Response" class="gt_row gt_left">No answer</td>
+<td headers="n" class="gt_row gt_right">135</td>
+<td headers="%age" class="gt_row gt_right">49.3</td></tr>
+  </tbody>
+  
+  
+</table>
 </div>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>career_excitement<span class="ot">&lt;-</span><span class="fu">read_excel</span>(<span class="st">"paper_tables.xlsx"</span>,   <span class="at">sheet =</span> <span class="st">"Sheet9"</span>)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>career_excitement<span class="sc">%&gt;%</span> gt<span class="sc">::</span><span class="fu">gt</span>() <span class="sc">%&gt;%</span> </span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gt_theme_538</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gt_highlight_rows</span>(<span class="at">rows =</span> <span class="dv">6</span>, <span class="at">font_weight =</span> <span class="st">"normal"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_header</span>(<span class="at">title=</span><span class="st">"Table 3: How prepared one feels for job entry"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-6-3.png" class="img-fluid" width="672"></p>
+
+<div id="ebklzptppb" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  font-family: Chivo, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+:where(#ebklzptppb) .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: none;
+  border-top-width: 3px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+:where(#ebklzptppb) .gt_heading {
+  background-color: #FFFFFF;
+  text-align: left;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#ebklzptppb) .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+:where(#ebklzptppb) .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+:where(#ebklzptppb) .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+:where(#ebklzptppb) .gt_bottom_border {
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#ebklzptppb) .gt_col_headings {
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #000000;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#ebklzptppb) .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 80%;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+:where(#ebklzptppb) .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 80%;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+:where(#ebklzptppb) .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+:where(#ebklzptppb) .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+:where(#ebklzptppb) .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #000000;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+:where(#ebklzptppb) .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 80%;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #000000;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+:where(#ebklzptppb) .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 80%;
+  font-weight: bolder;
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #000000;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #FFFFFF;
+  vertical-align: middle;
+}
+
+:where(#ebklzptppb) .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+:where(#ebklzptppb) .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+:where(#ebklzptppb) .gt_row {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+:where(#ebklzptppb) .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 80%;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border-right-style: solid;
+  border-right-width: 0px;
+  border-right-color: #FFFFFF;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#ebklzptppb) .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+:where(#ebklzptppb) .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+:where(#ebklzptppb) .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#ebklzptppb) .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+:where(#ebklzptppb) .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+:where(#ebklzptppb) .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#ebklzptppb) .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#ebklzptppb) .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+:where(#ebklzptppb) .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+:where(#ebklzptppb) .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#ebklzptppb) .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#ebklzptppb) .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#ebklzptppb) .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#ebklzptppb) .gt_sourcenote {
+  font-size: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#ebklzptppb) .gt_left {
+  text-align: left;
+}
+
+:where(#ebklzptppb) .gt_center {
+  text-align: center;
+}
+
+:where(#ebklzptppb) .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+:where(#ebklzptppb) .gt_font_normal {
+  font-weight: normal;
+}
+
+:where(#ebklzptppb) .gt_font_bold {
+  font-weight: bold;
+}
+
+:where(#ebklzptppb) .gt_font_italic {
+  font-style: italic;
+}
+
+:where(#ebklzptppb) .gt_super {
+  font-size: 65%;
+}
+
+:where(#ebklzptppb) .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 75%;
+  vertical-align: 0.4em;
+}
+
+:where(#ebklzptppb) .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+:where(#ebklzptppb) .gt_indent_1 {
+  text-indent: 5px;
+}
+
+:where(#ebklzptppb) .gt_indent_2 {
+  text-indent: 10px;
+}
+
+:where(#ebklzptppb) .gt_indent_3 {
+  text-indent: 15px;
+}
+
+:where(#ebklzptppb) .gt_indent_4 {
+  text-indent: 20px;
+}
+
+:where(#ebklzptppb) .gt_indent_5 {
+  text-indent: 25px;
+}
+
+tbody tr:last-child {
+  border-bottom: 2px solid #ffffff00;
+}
+</style>
+<table class="gt_table">
+  <thead class="gt_header">
+    <tr>
+      <td colspan="7" class="gt_heading gt_title gt_font_normal gt_bottom_border" style="">Table 3: How prepared one feels for job entry</td>
+    </tr>
+    
+  </thead>
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="border-top-width: 0px; border-top-style: solid; border-top-color: black;" scope="col" id="How do you feel">How do you feel</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" style="border-top-width: 0px; border-top-style: solid; border-top-color: black;" scope="col" id="Overall">Overall</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" style="border-top-width: 0px; border-top-style: solid; border-top-color: black;" scope="col" id="BS">BS</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" style="border-top-width: 0px; border-top-style: solid; border-top-color: black;" scope="col" id="Mphil">Mphil</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" style="border-top-width: 0px; border-top-style: solid; border-top-color: black;" scope="col" id="PhD">PhD</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" style="border-top-width: 0px; border-top-style: solid; border-top-color: black;" scope="col" id="Male">Male</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" style="border-top-width: 0px; border-top-style: solid; border-top-color: black;" scope="col" id="Female">Female</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="How do you feel" class="gt_row gt_left">Bored</td>
+<td headers="Overall" class="gt_row gt_right">2.6</td>
+<td headers="BS" class="gt_row gt_right">0.9</td>
+<td headers="Mphil" class="gt_row gt_right">4.5</td>
+<td headers="PhD" class="gt_row gt_right">3.6</td>
+<td headers="Male" class="gt_row gt_right">4.3</td>
+<td headers="Female" class="gt_row gt_right">0.8</td></tr>
+    <tr><td headers="How do you feel" class="gt_row gt_left">confident</td>
+<td headers="Overall" class="gt_row gt_right">37.0</td>
+<td headers="BS" class="gt_row gt_right">41.0</td>
+<td headers="Mphil" class="gt_row gt_right">37.0</td>
+<td headers="PhD" class="gt_row gt_right">29.0</td>
+<td headers="Male" class="gt_row gt_right">47.0</td>
+<td headers="Female" class="gt_row gt_right">26.0</td></tr>
+    <tr><td headers="How do you feel" class="gt_row gt_left">Excited</td>
+<td headers="Overall" class="gt_row gt_right">13.0</td>
+<td headers="BS" class="gt_row gt_right">15.0</td>
+<td headers="Mphil" class="gt_row gt_right">12.0</td>
+<td headers="PhD" class="gt_row gt_right">14.0</td>
+<td headers="Male" class="gt_row gt_right">9.4</td>
+<td headers="Female" class="gt_row gt_right">17.0</td></tr>
+    <tr><td headers="How do you feel" class="gt_row gt_left">I know exactly what I want</td>
+<td headers="Overall" class="gt_row gt_right">11.0</td>
+<td headers="BS" class="gt_row gt_right">15.0</td>
+<td headers="Mphil" class="gt_row gt_right">6.3</td>
+<td headers="PhD" class="gt_row gt_right">21.0</td>
+<td headers="Male" class="gt_row gt_right">9.4</td>
+<td headers="Female" class="gt_row gt_right">14.0</td></tr>
+    <tr><td headers="How do you feel" class="gt_row gt_left">Ready</td>
+<td headers="Overall" class="gt_row gt_right">7.8</td>
+<td headers="BS" class="gt_row gt_right">8.4</td>
+<td headers="Mphil" class="gt_row gt_right">9.0</td>
+<td headers="PhD" class="gt_row gt_right">7.1</td>
+<td headers="Male" class="gt_row gt_right">5.8</td>
+<td headers="Female" class="gt_row gt_right">10.0</td></tr>
+    <tr><td headers="How do you feel" class="gt_row gt_left" style="background-color: rgba(128,188,216,0.8); font-weight: normal;">Worried</td>
+<td headers="Overall" class="gt_row gt_right" style="background-color: rgba(128,188,216,0.8); font-weight: normal;">27.0</td>
+<td headers="BS" class="gt_row gt_right" style="background-color: rgba(128,188,216,0.8); font-weight: normal;">20.0</td>
+<td headers="Mphil" class="gt_row gt_right" style="background-color: rgba(128,188,216,0.8); font-weight: normal;">32.0</td>
+<td headers="PhD" class="gt_row gt_right" style="background-color: rgba(128,188,216,0.8); font-weight: normal;">25.0</td>
+<td headers="Male" class="gt_row gt_right" style="background-color: rgba(128,188,216,0.8); font-weight: normal;">24.0</td>
+<td headers="Female" class="gt_row gt_right" style="background-color: rgba(128,188,216,0.8); font-weight: normal;">32.0</td></tr>
+    <tr><td headers="How do you feel" class="gt_row gt_left">Unknown</td>
+<td headers="Overall" class="gt_row gt_right">0.0</td>
+<td headers="BS" class="gt_row gt_right">0.0</td>
+<td headers="Mphil" class="gt_row gt_right">0.0</td>
+<td headers="PhD" class="gt_row gt_right">0.0</td>
+<td headers="Male" class="gt_row gt_right">0.0</td>
+<td headers="Female" class="gt_row gt_right">0.0</td></tr>
+  </tbody>
+  
+  
+</table>
 </div>
 </div>
+</div>
+<p>There are in total 291 respondents mainly from economics, business and social sciences background. There is fairly equal representation gender wise. Table 1 is about proram wise composition of the respondents. On question <strong>“Do you think that Artificial Intelligence, Machine Learning, Robotics and Other automation are serious threats to your job prospects in 5 to 10 years times.”</strong>, there seems highest non-response. Almost 50% of the respondents did not respond. One out of thirteen respondents thamentioned t he/she is aware of challenges posed by AI, ML, Robotics from future job perspective.Almost 70% of the fresh graduates or recent research students have no idea about emerging challenges and disruptions to be caused. This is also an indicator that their mentoros/teachers are also not discussing such challenges in their classes.</p>
+<p>Some of the summary tables are reported below for further insight on graduates skills and their readiness for the market.</p>
 <div class="cell">
 
 </div>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>skills_rating<span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"paper_tables.xlsx"</span>,   <span class="at">sheet =</span> <span class="st">"Sheet4"</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>skills_rating <span class="sc">%&gt;%</span> gt<span class="sc">::</span><span class="fu">gt</span>() <span class="sc">%&gt;%</span> </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gt_theme_538</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gt_hulk_col_numeric</span>(<span class="st">`</span><span class="at">Very Strong</span><span class="st">`</span>) <span class="sc">%&gt;%</span>  <span class="fu">tab_header</span>(<span class="at">title=</span><span class="st">"How you rate your skills"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
+
+<div id="yzasmqkpzi" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  font-family: Chivo, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+:where(#yzasmqkpzi) .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: none;
+  border-top-width: 3px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+:where(#yzasmqkpzi) .gt_heading {
+  background-color: #FFFFFF;
+  text-align: left;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#yzasmqkpzi) .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+:where(#yzasmqkpzi) .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+:where(#yzasmqkpzi) .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+:where(#yzasmqkpzi) .gt_bottom_border {
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#yzasmqkpzi) .gt_col_headings {
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #000000;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#yzasmqkpzi) .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 80%;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+:where(#yzasmqkpzi) .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 80%;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+:where(#yzasmqkpzi) .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+:where(#yzasmqkpzi) .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+:where(#yzasmqkpzi) .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #000000;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+:where(#yzasmqkpzi) .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 80%;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #000000;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+:where(#yzasmqkpzi) .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 80%;
+  font-weight: bolder;
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #000000;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #FFFFFF;
+  vertical-align: middle;
+}
+
+:where(#yzasmqkpzi) .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+:where(#yzasmqkpzi) .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+:where(#yzasmqkpzi) .gt_row {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+:where(#yzasmqkpzi) .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 80%;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border-right-style: solid;
+  border-right-width: 0px;
+  border-right-color: #FFFFFF;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#yzasmqkpzi) .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+:where(#yzasmqkpzi) .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+:where(#yzasmqkpzi) .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#yzasmqkpzi) .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+:where(#yzasmqkpzi) .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+:where(#yzasmqkpzi) .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#yzasmqkpzi) .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#yzasmqkpzi) .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+:where(#yzasmqkpzi) .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+:where(#yzasmqkpzi) .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#yzasmqkpzi) .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#yzasmqkpzi) .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#yzasmqkpzi) .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#yzasmqkpzi) .gt_sourcenote {
+  font-size: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#yzasmqkpzi) .gt_left {
+  text-align: left;
+}
+
+:where(#yzasmqkpzi) .gt_center {
+  text-align: center;
+}
+
+:where(#yzasmqkpzi) .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+:where(#yzasmqkpzi) .gt_font_normal {
+  font-weight: normal;
+}
+
+:where(#yzasmqkpzi) .gt_font_bold {
+  font-weight: bold;
+}
+
+:where(#yzasmqkpzi) .gt_font_italic {
+  font-style: italic;
+}
+
+:where(#yzasmqkpzi) .gt_super {
+  font-size: 65%;
+}
+
+:where(#yzasmqkpzi) .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 75%;
+  vertical-align: 0.4em;
+}
+
+:where(#yzasmqkpzi) .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+:where(#yzasmqkpzi) .gt_indent_1 {
+  text-indent: 5px;
+}
+
+:where(#yzasmqkpzi) .gt_indent_2 {
+  text-indent: 10px;
+}
+
+:where(#yzasmqkpzi) .gt_indent_3 {
+  text-indent: 15px;
+}
+
+:where(#yzasmqkpzi) .gt_indent_4 {
+  text-indent: 20px;
+}
+
+:where(#yzasmqkpzi) .gt_indent_5 {
+  text-indent: 25px;
+}
+
+tbody tr:last-child {
+  border-bottom: 2px solid #ffffff00;
+}
+</style>
+<table class="gt_table">
+  <thead class="gt_header">
+    <tr>
+      <td colspan="7" class="gt_heading gt_title gt_font_normal gt_bottom_border" style="">How you rate your skills</td>
+    </tr>
+    
+  </thead>
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="border-top-width: 0px; border-top-style: solid; border-top-color: black;" scope="col" id="Skills">Skills</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" style="border-top-width: 0px; border-top-style: solid; border-top-color: black;" scope="col" id="Very Strong">Very Strong</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" style="border-top-width: 0px; border-top-style: solid; border-top-color: black;" scope="col" id="Strong">Strong</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" style="border-top-width: 0px; border-top-style: solid; border-top-color: black;" scope="col" id="In-between">In-between</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" style="border-top-width: 0px; border-top-style: solid; border-top-color: black;" scope="col" id="Very weak">Very weak</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" style="border-top-width: 0px; border-top-style: solid; border-top-color: black;" scope="col" id="Weak">Weak</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" style="border-top-width: 0px; border-top-style: solid; border-top-color: black;" scope="col" id="NA">NA</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="Skills" class="gt_row gt_left">comm_skills(% )</td>
+<td headers="Very Strong" class="gt_row gt_right" style="background-color: #7C368A; color: #FFFFFF;">15.3</td>
+<td headers="Strong" class="gt_row gt_right">44.2</td>
+<td headers="In-between" class="gt_row gt_right">33.9</td>
+<td headers="Very weak" class="gt_row gt_right">0.7</td>
+<td headers="Weak" class="gt_row gt_right">2.2</td>
+<td headers="NA" class="gt_row gt_right">3.6</td></tr>
+    <tr><td headers="Skills" class="gt_row gt_left">writing_skills(%)</td>
+<td headers="Very Strong" class="gt_row gt_right" style="background-color: #762A83; color: #FFFFFF;">14.6</td>
+<td headers="Strong" class="gt_row gt_right">46.7</td>
+<td headers="In-between" class="gt_row gt_right">29.9</td>
+<td headers="Very weak" class="gt_row gt_right">0.0</td>
+<td headers="Weak" class="gt_row gt_right">5.1</td>
+<td headers="NA" class="gt_row gt_right">3.6</td></tr>
+    <tr><td headers="Skills" class="gt_row gt_left">working_data_numbers(%)</td>
+<td headers="Very Strong" class="gt_row gt_right" style="background-color: #9D6EAE; color: #FFFFFF;">19.0</td>
+<td headers="Strong" class="gt_row gt_right">39.8</td>
+<td headers="In-between" class="gt_row gt_right">33.2</td>
+<td headers="Very weak" class="gt_row gt_right">0.0</td>
+<td headers="Weak" class="gt_row gt_right">4.4</td>
+<td headers="NA" class="gt_row gt_right">3.6</td></tr>
+    <tr><td headers="Skills" class="gt_row gt_left">working_with_people(%)</td>
+<td headers="Very Strong" class="gt_row gt_right" style="background-color: #EEF5ED; color: #000000;">35.8</td>
+<td headers="Strong" class="gt_row gt_right">43.4</td>
+<td headers="In-between" class="gt_row gt_right">12.8</td>
+<td headers="Very weak" class="gt_row gt_right">1.1</td>
+<td headers="Weak" class="gt_row gt_right">2.2</td>
+<td headers="NA" class="gt_row gt_right">4.7</td></tr>
+    <tr><td headers="Skills" class="gt_row gt_left">dressing_properly(%)</td>
+<td headers="Very Strong" class="gt_row gt_right" style="background-color: #E4F3E0; color: #000000;">38.0</td>
+<td headers="Strong" class="gt_row gt_right">38.7</td>
+<td headers="In-between" class="gt_row gt_right">17.5</td>
+<td headers="Very weak" class="gt_row gt_right">0.0</td>
+<td headers="Weak" class="gt_row gt_right">2.6</td>
+<td headers="NA" class="gt_row gt_right">3.3</td></tr>
+    <tr><td headers="Skills" class="gt_row gt_left">punctuality(%)</td>
+<td headers="Very Strong" class="gt_row gt_right" style="background-color: #4C9755; color: #FFFFFF;">50.4</td>
+<td headers="Strong" class="gt_row gt_right">34.3</td>
+<td headers="In-between" class="gt_row gt_right">10.9</td>
+<td headers="Very weak" class="gt_row gt_right">0.7</td>
+<td headers="Weak" class="gt_row gt_right">0.4</td>
+<td headers="NA" class="gt_row gt_right">3.3</td></tr>
+    <tr><td headers="Skills" class="gt_row gt_left">attendance(5)</td>
+<td headers="Very Strong" class="gt_row gt_right" style="background-color: #1B7837; color: #FFFFFF;">53.3</td>
+<td headers="Strong" class="gt_row gt_right">34.7</td>
+<td headers="In-between" class="gt_row gt_right">7.7</td>
+<td headers="Very weak" class="gt_row gt_right">0.4</td>
+<td headers="Weak" class="gt_row gt_right">0.4</td>
+<td headers="NA" class="gt_row gt_right">3.6</td></tr>
+    <tr><td headers="Skills" class="gt_row gt_left">workplace_safety(%)</td>
+<td headers="Very Strong" class="gt_row gt_right" style="background-color: #58A05D; color: #FFFFFF;">49.6</td>
+<td headers="Strong" class="gt_row gt_right">36.1</td>
+<td headers="In-between" class="gt_row gt_right">9.9</td>
+<td headers="Very weak" class="gt_row gt_right">0.0</td>
+<td headers="Weak" class="gt_row gt_right">0.0</td>
+<td headers="NA" class="gt_row gt_right">4.4</td></tr>
+    <tr><td headers="Skills" class="gt_row gt_left">motivation_and_initiative(%)</td>
+<td headers="Very Strong" class="gt_row gt_right" style="background-color: #F4F1F4; color: #000000;">32.8</td>
+<td headers="Strong" class="gt_row gt_right">43.4</td>
+<td headers="In-between" class="gt_row gt_right">17.9</td>
+<td headers="Very weak" class="gt_row gt_right">0.0</td>
+<td headers="Weak" class="gt_row gt_right">2.6</td>
+<td headers="NA" class="gt_row gt_right">3.3</td></tr>
+  </tbody>
+  
+  
+</table>
 </div>
 </div>
-<p>This is an exploratory analysis indicating that relatively large number of respondents believe in skills like hard work and puntuality than being smart as is indicative from above mentioned graph. For soft skills a large number of respondents are not very confident and report as <strong>In_between</strong> for writing skills, working in a team, motivation and initiative, working with data and numbers (most of the respondents are from statistics and economics discipline) and in other skills. There is no substitute for hardwork but at the same time, without smart work, it seems remote possibility that our youth can excel in future just with hard work but having low proficiency in soft skills. On the other hand, in soft skills required to work smart, most of the graduate students are not very confident and indicate they have skills in between. This survey was based on self reported confidence which is usually biased upward. As mentioned earlier that findings from this survey are preliminary and one can not generalize from this over other.</p>
+</div>
 </section>
-<section id="career-counseling" class="level2">
-<h2 class="anchored" data-anchor-id="career-counseling">Career Counseling</h2>
-<p>A survey mainly from entry level graduates was conducted from 112 students. This survey does not not fulfill criteria of random sampling, so I am not generalizing results on the basis of statistical inference. During the survey it was realised that one of the reasons for poor performance of graduate students during their studies is lack of mentoring and counseling to choose right discipline. Many of the students join a discipline at random. Following are the responses to one the question asked: * Do you think choice of degree would have been better if you were provided career counseling before admission to a university?* and * Do you think career counseling be made mandatory before joining university?*</p>
+<section id="correspondence-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="correspondence-analysis">Correspondence Analysis</h2>
+<p>Correspondence analysis (CA) is an extension of principal component analysis suited to explore relationships among qualitative variables (or categorical data). Like principal component analysis, it provides a solution for summarizing and visualizing data set in two-dimension plots. Here, we describe the simple correspondence analysis, which is used to analyze frequencies formed by two categorical data, a data table known as contengency table. It provides factor scores (coordinates) for both row and column points of contingency table. These coordinates are used to visualize graphically the association between row and column elements in the contingency table.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: false</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co">#| message: false</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(FactoMineR)</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(factoextra)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>Data<span class="ot">&lt;-</span><span class="fu">read_excel</span>(<span class="st">"paper_tables.xlsx"</span>,<span class="at">sheet=</span><span class="st">"Sheet8"</span>)</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co">#m1 &lt;- CA(X  =  Data[ ,-1], graph = TRUE)</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>m1 <span class="ot">&lt;-</span> </span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>  Data <span class="sc">|&gt;</span> </span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>Skills) <span class="sc">|&gt;</span> </span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.matrix</span>()</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="fu">rownames</span>(m1) <span class="ot">&lt;-</span> Data<span class="sc">$</span>Skills</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>fm2 <span class="ot">&lt;-</span> <span class="fu">CA</span>(<span class="at">X =</span>  m1, <span class="at">graph =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="Paper1_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">fviz_ca_biplot</span>(fm2, <span class="at">repel =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="Paper1_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>As parametric tests may not be appropriate due to randomness issue, I apply here chi-square test (non-parametric) to find out association between skills and competency. The relative contribution of each cell to the total Chi-square score give some indication of the nature of the dependency in between rows and columns of the contingency table. This shows that the row technological challenges, there is more who have either no information or not sure . While `most attributes of other variables seem independent of each other. CV creation seems highly correlated with great extent , not aware and to some extent.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Paper1_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>After having awareness assessment about technical, future jobs , team skills, next set of questions were related to their strengths in certain skills important for jobs of today and tomorrow. Following are the tables, graphs and chi-square test regarding these atrributes.</p>
+<div class="cell">
+
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Paper1_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>This is an exploratory analysis indicating that relatively large number of respondents report very strong in skills like hard work and punctuality while a large number of respondents are not very confident and report as In_between e.g: writing skills, working in a team, motivation and initiative, working with data and numbers and in other skills. There is no substitute for hard work. Nevertheless, without smart work, it seems remote possibility that our youth can excel in opportunities offered by jobs of today and tomorrow by simply hard. They have to invest in soft skills. This survey was based on self reported confidence which is usually biased upward. Caution should be observed while generalizing these results as it is non-probability sample.</p>
+</section>
+<section id="career-counseling-and-support" class="level2">
+<h2 class="anchored" data-anchor-id="career-counseling-and-support">Career Counseling and Support</h2>
+<p>There are lot of online learning opportunities, but many often ask that they don’t have access to trustworthy sources from where they can get an idea from which source to learn. Unlike consumer common products used in Pakistan, there are not many reviews about learning platforms. Some complains that online learning/training are either below quality or fake and charge hefty amounts to participants. Workers often ask how to make sense of their options but there is not sufficient information available on the matter. Potential consumers of online education encounter a black box. Survey results from 112 university graduates indicates that they are performing poor in studies because no right counseling was provided to them when they join BS-graduate program. A survey mainly from entry level graduates was conducted from students. This survey may not fulfill criteria of random sampling, so I am not generalizing results on the basis of statistical inference. Based on these survey results it has been found that one of the reasons for poor performance of graduate students during their studies is lack of mentoring and counseling to choose the right discipline. Many of the students join a discipline without due consideration. This hampers their opportunities to excel in future. Following are the responses to one the question asked: Do you think choice of degree would have been better if you were provided career counseling before admission to a university? and Do you think career counseling be made mandatory before joining university? <em>Do you think choice of degree would have been better if you were provided career counseling before admission to a university?</em> and <em>Do you think career counseling be made mandatory before joining university?</em></p>
 <table class="table">
 <thead>
 <tr class="header">
@@ -377,19 +2263,18 @@ $ `Name of the University`                                                      
 </tbody>
 </table>
 <hr>
-</section>
-<section id="choice-of-degree-with-career-would-have-been-better-with-counseling" class="level2">
-<h2 class="anchored" data-anchor-id="choice-of-degree-with-career-would-have-been-better-with-counseling">Choice of degree with career would have been better with counseling</h2>
+<section id="choice-of-degree-with-career-would-have-been-better-with-counseling" class="level3">
+<h3 class="anchored" data-anchor-id="choice-of-degree-with-career-would-have-been-better-with-counseling">Choice of degree with career would have been better with counseling</h3>
 <table class="table">
 <caption>Should career-counseling be mandatory</caption>
 <colgroup>
 <col style="width: 27%">
-<col style="width: 22%">
+<col style="width: 23%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Response</th>
-<th>% response</th>
+<th>% response |</th>
 </tr>
 </thead>
 <tbody>
@@ -407,10 +2292,9 @@ $ `Name of the University`                                                      
 </tr>
 </tbody>
 </table>
-<p>These preliminary results indicate that career counseling is one great missing link when students decide about their degree after 12 years of education. This results not only in poor academic performance but also becomes a hindrance in their continuous learning process which is important for youth to prepare itself for future jobs which even dont exist yet. Element of mentoring, counseling and helping youth to make informed decisions about their careers are some important aspects to prepare our youth for future jobs and to make them a continuous learners rather being discouraged and dejected young ones..</p>
-<p><strong>Free lancers earnings</strong> Following are the results obtained from 14000 free lancing earners in Pakistan who registered themselves in DigiSkills program run by Ignite under Ministry of Finance. Data from this survey indicate that skills helps to earn a good livelihood even if one has not high degree.</p>
+<p>These preliminary results indicate that career counseling is one important missing link when students decide about their degree after 12 years of education. This results not only in poor academic performance but also becomes a hindrance in their continuous learning process which is important for youth to prepare itself for future jobs and to become a continuous learner to reskill/upskill. Element of mentoring, counseling, and helping youth to make informed decisions about their careers are some important aspects to prepare our youth for future jobs and to make them a continuous learner rather being discouraged and dejected youth. ## Free lancers earnings A nationally representative survey from individuals, who were trained through online free lancing skills, results are endorsing the point that in this era of Silicon valley , its not degree but skills matter. Many undergraduate students are earning a reasonable money through this platform of free lancing.</p>
 <table class="table">
-<caption>Average earnings per month in USD by qualification</caption>
+<caption>Table 12 Average earnings per month in USD by qualification</caption>
 <thead>
 <tr class="header">
 <th>Qualification</th>
@@ -441,18 +2325,53 @@ $ `Name of the University`                                                      
 </tbody>
 </table>
 </section>
+</section>
 <section id="conlcusion" class="level2">
 <h2 class="anchored" data-anchor-id="conlcusion">Conlcusion</h2>
-<p>As <span class="citation" data-cites="Weise2021">Weise (<a href="#ref-Weise2021" role="doc-biblioref">2021</a>)</span> has rightly pointed out in her book that if we want to move from a future we dont want to a future we want, we have to consciously practice bold thinking to achieve the desired future. Current practice in public sector universities is restricted to manage themselves rather working on problems society is facing. As a result young learners are also neither well motivated and guided nor moving on a continuous learning path. They are getting degrees through which a small percent of them are getting jobs while majority remains worried about their future. There is need to shift from a factory-model (enforced content based learning) to interactive, engaged and problem solving learning ecosystem. Opinion survey results indicate that our youth is ready to work hard but there is need that it gets proper mentoring which help them to move on a continuous learning path and youth not only work hard but also learn how to work smart. Probably there is need to change a mindset “Slow and steady wins the race” to “Smart and steady wins the race” and from being a <em>jack of none and master of one</em> to <em>jack of many and master of few</em> for preparing our youth for future challenges.</p>
+<p>Exploratory data analysis results indicate that our graduates are hard working, punctual but lacking some important soft skills required in the job market. Most of them need right mentoring and sufficient exposure to become continuous learner. On right mentoring, university academia has to keep itself updated and has to guide students for right learning resources. Regarding soft skills and developing competency among graduates, it is important to switch from a factory forced model to learning/problem-solving outcome university model. As <span class="citation" data-cites="Weise2020">Weise (<a href="#ref-Weise2020" role="doc-biblioref">2020</a>)</span> has rightly pointed out in her book that if “we want to move from a future we dont want to a future we want, we have to consciously practice bold thinking to achieve the desired future.” Prevailing learning culture in universities is based on teaching students for a certain number of years and granting a piece of paper having grades written on it. It does not indicate learning skills of a student. Similarly, gaps exist between learners, learning providers and employers. Neither side understands clearly what the other sides need. Adult learners need guidance and need mentors. Most of them are unable to move on a learning curve at their own, therefore, they need guidance.<br>
+With human help, adult learners can make their online learning more effective. Learning and upskilling alone are not enough. Codding apprenticeship, legal services, food stamps, health care, employment assistance Guidelines to reskilling/upskilling are not available, and it is not possible for workers to improve their skills and once they get out of job, they hardly find any working opportunity afterward due to change in required skills. It is needed to shift from a factory-model (enforced content-based learning) to interactive, engaged and problem-solving learning ecosystem. Opinion survey results indicate that our youth is ready to work hard but to make it work smart and tap opportunities in global gig market economy, it must invest in skills that helps it to work smart. Probably there is need to change a mindset from “Slow and steady wins the race” to “Smart and steady wins the race”.</p>
+<p><strong>Key recommendations</strong>: Exposing graduates to a wide variety of skills, mentoring them on reliable resources, strengthening soft skills and enabling them to move on a continuous learning path. Moreover, there is need to create opportunities for working learners for re-skilling and up-skilling opportunities. The most effective way to impart/attain future job skills is to focus on integrating required skills with a new learning eco-system for our youth to have decent jobs and employers improve their efficiency and productivity.</p>
 </section>
-<section id="references" class="level1 unnumbered">
+<section id="references" class="level1 numbered">
+<h1 class="numbered">References</h1>
+<section id="appendix" class="level2">
+<h2 class="anchored" data-anchor-id="appendix">Appendix</h2>
+<div class="cell">
 
+</div>
+<div class="cell">
 
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Paper1_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output-display">
+<p><img src="Paper1_files/figure-html/unnamed-chunk-16-2.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output-display">
+<p><img src="Paper1_files/figure-html/unnamed-chunk-16-3.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+
+</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-akdere2018" class="csl-entry" role="doc-biblioentry">
+Akdere, Mesut, Louis Hickman, and Michael Kirchner. 2018. <span>“Developing Leadership Competencies for STEM Fields: The Case of Purdue Polytechnic Leadership Academy.”</span> <em>Advances in Developing Human Resources</em> 21 (1): 49–71. <a href="https://doi.org/10.1177/1523422318814546">https://doi.org/10.1177/1523422318814546</a>.
+</div>
 <div id="ref-AmericanAAS2018" class="csl-entry" role="doc-biblioentry">
 Arts, American Academy of, and Sciences. 2017. <span>“The Future of Undergraduate Education, the Future of America (Cambridge, MA: Author, 2017).”</span>
+</div>
+<div id="ref-Brynjolfsson2011RaceAT" class="csl-entry" role="doc-biblioentry">
+Brynjolfsson, Erik, and Andrew P. McAfee. 2011. <span>“Race Against the Machine : How the Digital Revolution Is Accelerating Innovation, Driving Productivity, and Irreversibly Transforming Employment and the Economy.”</span> In.
 </div>
 <div id="ref-Colin2018" class="csl-entry" role="doc-biblioentry">
 Colin Magee, Jean Hammond, and Tetyana Astashkina. 2018. <span>“The State of Workforce EdTech: A Look at Funding &amp; Innovation in Modern Workforce Education (Boston: LearnLaunch, 2018).”</span>
@@ -460,14 +2379,23 @@ Colin Magee, Jean Hammond, and Tetyana Astashkina. 2018. <span>“The State of W
 <div id="ref-Coyle2021" class="csl-entry" role="doc-biblioentry">
 Coyle, Diane. 2021. <span>“COGS and MONSTERS What Economics Is, and What Should It Be.”</span>
 </div>
+<div id="ref-CrowDabars2020" class="csl-entry" role="doc-biblioentry">
+Crow, Michael M., and William B. Dabars. 2020. <em>The Emergence of the Fifth Wave in American Higher Education</em>. John Hopkins University.
+</div>
+<div id="ref-assessme2015" class="csl-entry" role="doc-biblioentry">
+Griffin, Patrick, and Esther Care, eds. 2015. <em>Assessment and Teaching of 21st Century Skills</em>. Springer Netherlands. <a href="https://doi.org/10.1007/978-94-017-9395-7">https://doi.org/10.1007/978-94-017-9395-7</a>.
+</div>
+<div id="ref-Haque2022" class="csl-entry" role="doc-biblioentry">
+Haque, Nadeem. Ul., and Dure Nayab. 2022. <span>“Pakistan Opportunity To Excel: Now And The Future.”</span> <em>Working Paper</em>. <a href="https://pide.org.pk/wp-content/uploads/um-07-pakistan-opportunity-to-excel-now-and-the-future.pdf">https://pide.org.pk/wp-content/uploads/um-07-pakistan-opportunity-to-excel-now-and-the-future.pdf</a>.
+</div>
 <div id="ref-Sohail2018" class="csl-entry" role="doc-biblioentry">
 Inayatullah, Sohail, and Fazidah Ithnin. 2018. <span>“Transformation 2050: The Alternative Futures of Malaysian Universities.”</span>
 </div>
 <div id="ref-PorterandRivkin2014" class="csl-entry" role="doc-biblioentry">
 Porter, Michael E., and Jan W. Rivkin. 2014. <span>“An Economy Doing Half Its Job: Findings of Harvard Business School’s 2013–14 Survey on u.s. Competitiveness.”</span>
 </div>
-<div id="ref-Weise2021" class="csl-entry" role="doc-biblioentry">
-Weise, Michelle R. 2021. <span>“Long Life Learning: Preparing for Jobs That Don’t Even Exist Yet.”</span>
+<div id="ref-Weise2020" class="csl-entry" role="doc-biblioentry">
+Weise, Michelle R. 2020. <em>Long Life Learning: Preparing for Jobs That Don’t Even Exist yet</em>. Wiley 1st edition.
 </div>
 </div></section></div></main>
 <!-- /main column -->
@@ -512,7 +2440,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -540,31 +2485,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

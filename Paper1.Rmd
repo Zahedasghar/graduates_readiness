@@ -29,21 +29,37 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Introduction
 
+Pakistan
+has huge youth bulge and economic growth is not sufficient to create
+opportunities to absorb this burgeoning youth.
+On the positive side, digital,
+gig economy and Silicon Valley era have opened jobs which are global in nature.
+
+Firms, companies and entrepreneurs are placing increasing value on graduates being
+work ready @caballero2010 .
+
+Employers invest little in workers as they may hire someone for a short term.
+In gig-economy, one is not looking for hiring of young graduates as their precious future commodity, therefore, they prefer to hire graduates well equipped with skills instead of hiring and investing to make graduate a precious commodity.
+
 Both future of tens of millions of burgeoning youth and economic growth of Pakistan are dependent on the type of learning ecosystem we are going to have.
-Skills inequality is also one among differing degrees of inequalities. Sustainable development requires certain kind of skills that come with a formal education.
+Skills inequality is also one among differing degrees of inequalities.
+Sustainable development requires certain kind of skills that come with a formal education.
 This is also called in economics jargon: skill-biased technical change.
-In addition, there are informal know-how : tacit skills which develop when one lives among other skilled workers. There is an increasing skill gap in almost all of the occupations ranging from jobs of car mechanics to digital services providers.
+In addition, there are informal know-how : tacit skills which develop when one lives among other skilled workers.
+There is an increasing skill gap in almost all of the occupations ranging from jobs of car mechanics to digital services providers.
 There is need for significant effort and deliberate practice to think expansively to know what steps are required for uncertain future work.
 If we will invest in developing a lhning ecosystem, our burgeoning youth will be equipped with relevant skills to do well in the jobs of tomorrow.
- The dilemma is that neither educational institutions nor industries/companies are helping to prepare to over skilling gap and bridge skill inequalities.
+The dilemma is that neither educational institutions nor industries/companies are helping to prepare to over skilling gap and bridge skill inequalities.
 Academia has not been out of its comfort zone and trying to produce research which helps it to reach higher grade instead of focusing on imparting skills which are in high demand.
 Companies are not investing in training to develop requisite skills.
 Many of these companies prefer to buy talent instead of building talent with high level of professionalism.
-This has seriously deteriorated the capacity to cope with challenges posed in the third decade of the 21st century @Weise2021. Digital revolution and Covid-19 pandemic disruption has exposed an ever increasing skilling gap at the globe, in general and in a developing country like Pakistan, in particular.
-Simultaneously, this has posed serious challenges to universities to continue their business as usual. 
+This has seriously deteriorated the capacity to cope with challenges posed in the third decade of the 21st century @Weise2021.
+Digital revolution and Covid-19 pandemic disruption has exposed an ever increasing skilling gap at the globe, in general and in a developing country like Pakistan, in particular.
+Simultaneously, this has posed serious challenges to universities to continue their business as usual.
 
-  Main objective of this study is to highlight that with penetration of artificial intelligence, machine learning, big data and other digital techonologies has posed serious challenges to those whose jobs are performed in a routinely manner.
-Secondly, how universities can play a role and what will be future perspective of universities after online learning platform has become fully functional. What is future of universities without digital emersion and will physical universities continue to operate after 10 years from now.
+Main objective of this study is to highlight that with penetration of artificial intelligence, machine learning, big data and other digital techonologies has posed serious challenges to those whose jobs are performed in a routinely manner.
+Secondly, how universities can play a role and what will be future perspective of universities after online learning platform has become fully functional.
+What is future of universities without digital emersion and will physical universities continue to operate after 10 years from now.
 
 Thirdly, what kind of learning ecosystem is required where learning outcomes will be fixed while making time a variable unlike practice so far in vogue where time is fixed and learning is a variable.
 Most of Pakistani universities are suffering from serious financial crisis besides serving a very small fraction of students at tertiary education.
@@ -51,7 +67,8 @@ Data collected on future job challenges summary will help us to understand how o
 
 ## Future of jobs and skills
 
-Future of jobs is uncertain due to rapid changes in the past 50 years in all spheres of life all over the globe. According to @Coyle2021 _Advances in digital technologies, robotics,and AI are coalescing to alter the shape of work, automating routine tasks and requiring jobs for humans to be repackaged as non-routines ones._ Besides immense benefits of digital economy, it is clearly helping drive major inequalities of wealth and power and disrupting existing industrial activities and jobs.
+Future of jobs is uncertain due to rapid changes in the past 50 years in all spheres of life all over the globe.
+According to @Coyle2021 *Advances in digital technologies, robotics,and AI are coalescing to alter the shape of work, automating routine tasks and requiring jobs for humans to be repackaged as non-routines ones.* Besides immense benefits of digital economy, it is clearly helping drive major inequalities of wealth and power and disrupting existing industrial activities and jobs.
 Due to medical and technological advances, life expectancy has increased from 30 years to 70 years and 80 plus years in the developed world.
 With increased life expectancy and rapidly evolving technological changes, future of jobs has become uncertain.
 Many jobs which are available were not there and many more will emerge which are not available now.
@@ -73,17 +90,17 @@ What worked 10-20 years ago is not going to work 3 years from now or 5 years fro
 We have to be very systemic about sustainability and technology when we think that in order to make a really affordable, accessible, quality learning experience, we have to prepare for growth ahead of time.
 Continuous learning is important because education is going to change as things are moving faster, new technologies are emerging, skills to use those new technologies are in high demand.
 Therefore, it is not viable that a 4-year education, once in a lifetime, will serve one for the next 40/50 years.
-There are 100s of courses available for online learning but its important that universities design their own courses as per local needs. As a result, universities role has also changed.
+There are 100s of courses available for online learning but its important that universities design their own courses as per local needs.
+As a result, universities role has also changed.
 Instead of imparting certain kind of skills, universities have to think in learning ecosystem and have to strive to enable students to learning path so that after completion of degrees, students can learn at their own.
 There is urgent need to change learning paradigm from enabling students to learn once mode to a continuous habit of learning.
 Similarly, during the next 5 years, many new jobs will appear.
 How can an individual or society meet this challenge?
 
 These must be in English language but while teaching, there is no harm if local language can be used or can be bilingual.
-Local case studies will help to engage students better. 
+Local case studies will help to engage students better.
 
-
-  Universities need commitment to the promotion of lifelong learning through its academic programs and promotion of good citizenship through community-based learning process.
+Universities need commitment to the promotion of lifelong learning through its academic programs and promotion of good citizenship through community-based learning process.
 People's whom jobs will be abandoned don't have skills for new jobs to be created.
 It is not feasible for most of such people to get education at campus even if there are such upskilling programs.
 Majority of the jobs are linked with soft skills for which physical labs are not required.
@@ -101,7 +118,7 @@ Due to increased life expectancy over time, it is hard to imagine a straight lin
 There is a need for a paradigm shift from default mental model Learn, Earn, Rest to Learn, Earn, Learn, Earn,... for 10 to 12 jobs changes in one's life time.
 Learning and work have become inseparable, and it is knowledge economy or continuous learning.
 There is complete disconnect what is supplied and what is the demand in the market.
-I restrict myself here to role of higher education in meeting this challenge of knowledge economy. 
+I restrict myself here to role of higher education in meeting this challenge of knowledge economy.
 
 Higher education system is stuck in first transition from young adulthood to work force.
 There is debate whether universities should produce graduates with skills matching with jobs or graduates should follow a broader general skill.
@@ -110,9 +127,9 @@ But research shows that graduates who start their career path at lower level tha
 Secondly, surveys at entry level indicate that majority of them join college for getting skills to get job in the market.
 Thirdly, 50 to 70 years work life demands that job skills are must for a graduate.
 It is not true to think college education against workforce training.
-As economist Anthony P. Carnevale writes: "The inescapable reality is that ours is a society based on work. Increasing the economic relevance of education should, if done properly,extend the ability of educators to empower Americans to work in the world, rather than retreat from it." 
-Supply-Demand Mismatch has become a dominant issue.
-There is a need to have symbiotic relationship among learners, learning providers and employers @AmericanAAS2018. According to LearnLaunch estimates for 2015-2018, more than 240 new companies secured funding to address supply-demand mismatch issues, workplace competencies, technical skills, and formal and informal training making up a market place of workforce in excess of billion @Colin2018.
+As economist Anthony P. Carnevale writes: "The inescapable reality is that ours is a society based on work. Increasing the economic relevance of education should, if done properly,extend the ability of educators to empower Americans to work in the world, rather than retreat from it." Supply-Demand Mismatch has become a dominant issue.
+There is a need to have symbiotic relationship among learners, learning providers and employers @AmericanAAS2018.
+According to LearnLaunch estimates for 2015-2018, more than 240 new companies secured funding to address supply-demand mismatch issues, workplace competencies, technical skills, and formal and informal training making up a market place of workforce in excess of billion @Colin2018.
 
 ## Career Counseling and Support
 
@@ -140,7 +157,7 @@ But there is a dominant culture of management in Pakistan, so management and oth
 According to Transformation 2050 book, due to demographic transitions, digitalization, globalization and recent pandemic covid-19 disruption, higher education across the globe is in process of massive changes.
 Unfortunately, Pakistani university culture is like a factory model or the forced-feed one which has reached its limits but unfortunately our higher education leaders don't know how to move forward.
 Leadership should not have vision and courage to lead to future but also make this process participative and inclusive @Sohail2018.
-Universities are at the most trying to build themselves to attain status as opposed to broad set of institutional outcomes having utility for the society. 
+Universities are at the most trying to build themselves to attain status as opposed to broad set of institutional outcomes having utility for the society.
 
 To get their improved ranking, they are rejecting more students than accepting.
 How universities can transform to have inclusive learning and using technological changes can provide education to all at a very low cost.
@@ -149,7 +166,7 @@ Changing university education by having full time in person to digital emersion 
 This study contributes to reimagining university education to tap opportunities created by covid-19 disruption and enabling graduates to learn the process of getting skills.
 Future jobs skills are hardly known to anyone.
 Traditional university education system is misaligned with current job market and simply adding technological learning management system on it will not resolve the issue.There is a huge gap to bring educational system at par with emerging needs of the hour.
-Simple singular narrative of making universities at par with the requirements of the 3rd decade of the 21st century will not suffice going forward. 
+Simple singular narrative of making universities at par with the requirements of the 3rd decade of the 21st century will not suffice going forward.
 
 To face complexification of learning needs, there is need for re-thinking the entire learning paradigm.
 There is need to switch from one time learning mode for a given number of years to life long learning mode.
@@ -157,26 +174,26 @@ Jobs will now not be secured for life time, therefore, there is need to provide 
 Nevertheless, these challenges also offer new opportunities which will lead to convergence for those who will get maximum benefits fo the use of digital tools effectively.
 One has to keep on learning for a long period of one's life.
 Secondly in developing countries, a very small percent of population makes to tertiary education.
-There is an urgent need for universities to introduce part-time studentship opportunities to enable graduates to upgrade their skills and those willing to earn part-time degree may get a chance. Therefore, universities need to offer online learning programs to retrain existing employers and for upskilling of their jobs.
+There is an urgent need for universities to introduce part-time studentship opportunities to enable graduates to upgrade their skills and those willing to earn part-time degree may get a chance.
+Therefore, universities need to offer online learning programs to retrain existing employers and for upskilling of their jobs.
 Academic institutions inertia is a real but its not alone academic institutions, but onus is also on companies just as much as it is on higher education to meet the challenges of changing nature of jobs.
 The reskilling crisis is emerging very rapidly and the dilemma is Pakistan is niether ready to realize this crisis nor any preparation in near future to bridge this ever increasing reskilling crisis.
 Pakistani academia, companies and governments have long been trained in a way where issues can be resolved with more hard-work with mediocre skills rather increasing productivity with better skills and smart work instead of hard work.
 Survey results Complexity of the 21st century challenges required new skills and CONTINUOUS LEARNING approach.
-Now, neither universities nor companies are thinking hard to devise measures to deal with this complexification. 
-
+Now, neither universities nor companies are thinking hard to devise measures to deal with this complexification.
 
 Use of educational technology alone in universities will provide market-oriented skills is largely inaccurate assumption.
 Our traditional educational system which is misaligned to the needs of the students and society will deliver no good by just adding any Learning Modular System.
 Though it is claimed that skills are given more weightage than degrees but still even in country like United States a college degree signal sends a strong signal and current working learners are not preferred over those who carry degrees.
 Instead of focusing on degrees, it is important to have precise and relevant education tailored to the needs of society, employers and learners.
-Right skills at the right time in the right pathways are needed. 
+Right skills at the right time in the right pathways are needed.
 
 Can one think where universities offer part time degrees in Pakistan so that continuous working learners are not left behind just because of a degree signal.
 For this one has to redevise course structure as there are a number of courses like Pakistan Study, English, Islamic Study and many other general courses required to complete a degree.
 Such courses are not required for those who are in jobs and need degrees relevant to their skills to move higher ladder in their career.
 But our universities dont have any program so these can serve those un-served ones.
 Signaling power of degree is so strong that there is no equal in job market to it.
- Dr. Michael Crow "Universities should be great contributors to society rather universities to be great contributors to themselves. Each university is trying to be as good as Harvard, Berkeley and Yale. Many may achieve the goal and what else is to achieve if its done.
+Dr. Michael Crow "Universities should be great contributors to society rather universities to be great contributors to themselves. Each university is trying to be as good as Harvard, Berkeley and Yale. Many may achieve the goal and what else is to achieve if its done.
 
 Building institutions around the sole attainment of status as opposed to a broader set of institutional outcomes, which would include - status on the list - achievement on the list but also achieve somewhat impact.
 Emergence of new kind of institutions is needed with having digital immersion.
@@ -307,7 +324,8 @@ gA <- ggplotGrob(p1)
 
 ```
 
-This is an exploratory analysis indicating that relatively large number of respondents believe in skills like hard work and puntuality than being smart as is indicative from above mentioned graph. For soft skills a large number of respondents are not very confident and report as __In_between__ for writing skills, working in a team, motivation and initiative, working with data and numbers (most of the respondents are from statistics and economics discipline) and in other skills.
+This is an exploratory analysis indicating that relatively large number of respondents believe in skills like hard work and puntuality than being smart as is indicative from above mentioned graph.
+For soft skills a large number of respondents are not very confident and report as **In_between** for writing skills, working in a team, motivation and initiative, working with data and numbers (most of the respondents are from statistics and economics discipline) and in other skills.
 There is no substitute for hardwork but at the same time, without smart work, it seems remote possibility that our youth can excel in future just with hard work but having low proficiency in soft skills.
 On the other hand, in soft skills required to work smart, most of the graduate students are not very confident and indicate they have skills in between.
 This survey was based on self reported confidence which is usually biased upward.
@@ -316,7 +334,8 @@ As mentioned earlier that findings from this survey are preliminary and one can 
 ## Career Counseling
 
 A survey mainly from entry level graduates was conducted from 112 students.
-This survey does not not fulfill criteria of random sampling, so I am not generalizing results on the basis of statistical inference. During the survey it was realised that one of the reasons for poor performance of graduate students during their studies is lack of mentoring and counseling to choose right discipline.
+This survey does not not fulfill criteria of random sampling, so I am not generalizing results on the basis of statistical inference.
+During the survey it was realised that one of the reasons for poor performance of graduate students during their studies is lack of mentoring and counseling to choose right discipline.
 Many of the students join a discipline at random.
 Following are the responses to one the question asked: \* Do you think choice of degree would have been better if you were provided career counseling before admission to a university?\*
 and \* Do you think career counseling be made mandatory before joining university?\*
@@ -325,25 +344,26 @@ and \* Do you think career counseling be made mandatory before joining universit
 |----------|-------|
 | Yes      | 68.8% |
 | No       | 13.4% |
-| Maybe    | 17.9%  |
+| Maybe    | 17.9% |
 |          |       |
 
----
+------------------------------------------------------------------------
+
 ## Choice of degree with career would have been better with counseling
 
-+-------------------+-------------+
-| Response          | \% response |
-+===================+=============+
-| Strongly agree    | 67.5%       |
-|                   |             |
-| Agree             | 26.3%       |
-|                   |             |
-| Nuetral           | 5.5%        |
-|                   |             |
-| Disagree          | 0.7%        |
-|                   |             |
-| Strongly Disagree | 0%          |
-+-------------------+-------------+
++-------------------+--------------+
+| Response          | \% response  |
++===================+==============+
+| Strongly agree    | 67.5%        |
+|                   |              |
+| Agree             | 26.3%        |
+|                   |              |
+| Nuetral           | 5.5%         |
+|                   |              |
+| Disagree          | 0.7%         |
+|                   |              |
+| Strongly Disagree | 0%           |
++-------------------+--------------+
 
 : Should career-counseling be mandatory
 
@@ -370,9 +390,14 @@ Data from this survey indicate that skills helps to earn a good livelihood even 
 
 : Average earnings per month in USD by qualification
 
-
 ## Conlcusion
-As @Weise2021 has rightly pointed out in her book that if we want to move from a future we dont want to a future we want, we have to consciously practice bold thinking to achieve the desired future. Current practice in public sector universities is restricted to manage themselves rather working on problems society is facing. As a result young learners are also neither well motivated and guided nor moving on a continuous learning path. They are getting degrees through which a small percent of them are getting jobs while majority remains worried about their future. There is need to shift from a factory-model (enforced content based learning) to interactive, engaged and problem solving learning ecosystem. Opinion survey results indicate that our youth is ready to work hard but there is need that it gets proper mentoring which help them to move on a continuous learning path and youth not only work hard but also learn how to work smart. Probably there is need to change a mindset "Slow and steady wins the race" to "Smart and steady wins the race" and from being a _jack of none and master of one_ to _jack of many and master of few_ for preparing our youth for future challenges.
 
+As @Weise2021 has rightly pointed out in her book that if we want to move from a future we dont want to a future we want, we have to consciously practice bold thinking to achieve the desired future.
+Current practice in public sector universities is restricted to manage themselves rather working on problems society is facing.
+As a result young learners are also neither well motivated and guided nor moving on a continuous learning path.
+They are getting degrees through which a small percent of them are getting jobs while majority remains worried about their future.
+There is need to shift from a factory-model (enforced content based learning) to interactive, engaged and problem solving learning ecosystem.
+Opinion survey results indicate that our youth is ready to work hard but there is need that it gets proper mentoring which help them to move on a continuous learning path and youth not only work hard but also learn how to work smart.
+Probably there is need to change a mindset "Slow and steady wins the race" to "Smart and steady wins the race" and from being a *jack of none and master of one* to *jack of many and master of few* for preparing our youth for future challenges.
 
-# References {#references .unnumbered }
+# References {#references .unnumbered}

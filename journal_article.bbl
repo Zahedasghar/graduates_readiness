@@ -1,0 +1,76 @@
+\begin{thebibliography}{11}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\bibAnnoteFile}[1]{%
+  \IfFileExists{#1}{\begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ \input{#1}\end{quotation}}{}}
+\providecommand{\bibAnnote}[2]{%
+  \begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ #2\end{quotation}}
+
+\bibitem[{Akdere et~al.(2018)Akdere, Hickman, and Kirchner}]{akdere2018}
+Akdere, Mesut, Louis Hickman, and Michael Kirchner (2018), \enquote{Developing
+  leadership competencies for stem fields: The case of purdue polytechnic
+  leadership academy.} \emph{Advances in Developing Human Resources}, 21,
+  49--71, \urlprefix\url{http://dx.doi.org/10.1177/1523422318814546}.
+\bibAnnoteFile{akdere2018}
+
+\bibitem[{Brynjolfsson and McAfee(2011)}]{Brynjolfsson2011RaceAT}
+Brynjolfsson, Erik and Andrew~P. McAfee (2011), \enquote{Race against the
+  machine : how the digital revolution is accelerating innovation, driving
+  productivity, and irreversibly transforming employment and the economy.}
+\bibAnnoteFile{Brynjolfsson2011RaceAT}
+
+\bibitem[{Colin~Magee and Astashkina(2018)}]{Colin2018}
+Colin~Magee, Jean~Hammond and Tetyana Astashkina (2018), \enquote{The state of
+  workforce edtech: A look at funding & innovation in modern workforce
+  education (boston: Learnlaunch, 2018).}
+\bibAnnoteFile{Colin2018}
+
+\bibitem[{Coyle(2021)}]{Coyle2021}
+Coyle, Diane (2021), \enquote{Cogs and monsters what economics is, and what
+  should it be.}
+\bibAnnoteFile{Coyle2021}
+
+\bibitem[{Crow and Dabars(2020)}]{CrowDabars2020}
+Crow, Michael~M. and William~B. Dabars (2020), \emph{The Emergence of the Fifth
+  Wave in American Higher Education}. John Hopkins University.
+\bibAnnoteFile{CrowDabars2020}
+
+\bibitem[{Griffin and Care(2015)}]{assessme2015}
+Griffin, Patrick and Esther Care, eds. (2015), \emph{Assessment and Teaching of
+  21st Century Skills}. Springer Netherlands,
+  \urlprefix\url{http://dx.doi.org/10.1007/978-94-017-9395-7}.
+\bibAnnoteFile{assessme2015}
+
+\bibitem[{Haque and Nayab(2022)}]{Haque2022}
+Haque, Nadeem.~Ul. and Dure Nayab (2022), \enquote{Pakistan opportunity to
+  excel: Now and the future.} \emph{Working Paper},
+  \urlprefix\url{https://pide.org.pk/wp-content/uploads/um-07-pakistan-opportunity-to-excel-now-and-the-future.pdf}.
+\bibAnnoteFile{Haque2022}
+
+\bibitem[{Inayatullah and Ithnin(2018)}]{Sohail2018}
+Inayatullah, Sohail and Fazidah Ithnin (2018), \enquote{Transformation 2050:
+  The alternative futures of malaysian universities.}
+\bibAnnoteFile{Sohail2018}
+
+\bibitem[{of~Arts and Sciences(2017)}]{AmericanAAS2018}
+of~Arts, American~Academy and Sciences (2017), \enquote{The future of
+  undergraduate education, the future of america (cambridge, ma: Author,
+  2017).}
+\bibAnnoteFile{AmericanAAS2018}
+
+\bibitem[{Porter and Rivkin(2014)}]{PorterandRivkin2014}
+Porter, Michael~E. and Jan~W. Rivkin (2014), \enquote{An economy doing half its
+  job: Findings of harvard business school's 2013–14 survey on u.s.
+  competitiveness.}
+\bibAnnoteFile{PorterandRivkin2014}
+
+\bibitem[{Weise(2020)}]{Weise2020}
+Weise, Michelle~R. (2020), \emph{Long Life Learning: Preparing for Jobs that
+  Don't Even Exist Yet}. Wiley 1st edition.
+\bibAnnoteFile{Weise2020}
+
+\end{thebibliography}
